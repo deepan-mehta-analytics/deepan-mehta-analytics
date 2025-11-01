@@ -1,16 +1,74 @@
-## Hi there 👋
+# 👋 Hi, I’m Deepan Mehta  
 
-<!--
-**deepan-mehta-analytics/deepan-mehta-analytics** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AI & Data Analytics for Learning and Development, Education  | EdTech in Training | Lifelong Learner**
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌟 About Me  
+
+I’m a data-driven professional passionate about applying **AI and Analytics** to improve **Learning and Development (L&D)** outcomes.  
+After a successful career in **aviation training and operations**, I’ve transitioned toward **data analytics and EdTech innovation**, where I apply analytical methods to solve learning and business problems.  
+
+I specialize in transforming data into insights, building dashboards, and designing data-informed solutions.  
+
+**Current focus:** Building analytics projects in Python, Excel, and R.  
+**Future focus:** AI-driven Learning Analytics and EdTech solutions for Corporate Training / Learning and Development
+
+---
+
+## 🧠 Core Competencies  
+
+**Data Analytics:** Excel • SQL • R • Python • MySQL • BigQuery  
+**Visualization & Reporting:** Power BI • Looker Studio • Tableau • ggplot2  
+**AI & Automation:** Prompt Engineering • ChatGPT Integration Concepts • Predictive Analytics  
+**Learning & EdTech:** Instructional Design • LMS Reporting • Learning Analytics (in progress)  
+**Development (Legacy Projects):** PHP • MySQL • JavaFX • HTML/CSS  
+**Soft Skills:** Facilitation • Analytical Thinking • Communication • Continuous Learning  
+
+---
+
+## 💼 Featured Projects  
+
+| Project | Description | Tools |
+|----------|--------------|-------|
+| [🚴 Cyclistic Bike-Share Analysis (Excel)](https://github.com/deepan-mehta-analytics/Google-Data-Analytics-Capstone-Cyclistic-Excel) | Google Data Analytics Capstone: analyzed 12 months of ride data to compare casual vs. member behavior. | Excel, Pivot Tables, Charts |
+| [📊 Python Sales Analytics Project](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights. | Python, pandas, seaborn |
+| [🧑‍💼 HR Analytics Project (Python)](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | HR data analysis to explore retention and performance patterns. | Python, pandas, matplotlib |
+| [🎓 Education Analytics (Python)](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns. | Python, pandas, plotly |
+| [🧪 Mini AI & Analytics Portfolio](https://github.com/deepan-mehta-analytics/Mini-AI-Analytics-Portfolio) | Experimental repo linking AI tools with analytics workflows. | Python, ChatGPT, Excel |
+| [🛫 BCA Final Project — A310 Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | PHP/MySQL app for aircraft weight & balance calculations. | PHP, MySQL |
+| [🧾 MCA Final Project — Training Records System](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop app for managing and reporting training records. | JavaFX, MySQL |
+
+---
+
+## 🎓 Certifications  
+
+- Google Data Analytics Professional Certificate (Coursera)  
+- IBM Data Analytics with Excel & R (Coursera — in progress)  
+- IATA Professional Skills for Dangerous Goods Instructors  
+- SITA DCS & Load Sheet Certified  
+
+---
+
+## 🎯 Career Goals  
+
+Roles in:  
+- Data Analytics  
+- Data Annotation / Curation  
+- Learning Analytics (AI-driven)  
+- EdTech Data Solutions  / Corporate Training /Learning and Development
+
+My mission is to bridge **Analytics and Learning** — using data to make education and training more effective.
+
+---
+
+## 📫 Contact  
+
+📍 Mumbai, India  
+📧 supernova.surfer@gmail.com  
+🔗 [LinkedIn](your-link)  
+💼 [GitHub Projects](https://github.com/deepan-mehta-analytics?tab=repositories)
+
+---
+
+> “When learning meets data, growth becomes measurable and inevitable .”
