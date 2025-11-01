@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Deepan Mehta  
 
-**AI & Data Analytics for Learning and Development, Education  | EdTech in Training | Lifelong Learner**
+**AI & Data Analytics for Business, Learning and Development, Education  | EdTech in Training | Lifelong Learnering and Upskilling**
 
 ---
 
@@ -26,7 +26,20 @@ I specialize in transforming data into insights, building dashboards, and design
 **Soft Skills:** Facilitation • Analytical Thinking • Communication • Continuous Learning  
 
 ---
+**Programming & Analysis:**  
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
+**Visualization & Reporting:**  
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+
+---
 ## 💼 Featured Projects  
 
 | Project | Description | Tools |
