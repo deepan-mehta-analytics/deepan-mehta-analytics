@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Deepan Mehta  
 
-**AI & Data Analytics for Business, Learning and Development, Education  | EdTech in Training | Lifelong Learning and Upskilling**
+**Data Engineering | AI & Data Analytics | Learning and Development | EdTech in Training | Lifelong Learning **
 
 ---
 
