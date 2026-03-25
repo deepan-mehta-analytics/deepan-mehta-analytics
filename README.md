@@ -1,4 +1,4 @@
-<p align="center"><img src="PASTE_YOUR_IMAGE_URL_OR_PATH_HERE" alt="Alt text for the banner"></p>
+<p align="center"><img src="https://github.com/deepan-mehta-analytics/deepan-mehta-analytics/blob/1072d37dc8e20a4e62ebdf379baa1c730c359655/Cosmic-Surfboard-Header-2.png" alt=" Banner"></p>
 # 👋 Hi, I’m Deepan Mehta  
 
 **Data Engineering | AI & Data Analytics | Learning and Development | EdTech in Training | Lifelong Learning **
