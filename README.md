@@ -1,3 +1,4 @@
+<p align="center"><img src="PASTE_YOUR_IMAGE_URL_OR_PATH_HERE" alt="Alt text for the banner"></p>
 # 👋 Hi, I’m Deepan Mehta  
 
 **Data Engineering | AI & Data Analytics | Learning and Development | EdTech in Training | Lifelong Learning **
