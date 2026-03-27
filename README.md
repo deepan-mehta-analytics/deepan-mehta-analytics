@@ -68,8 +68,8 @@ I am engaged in transforming data into insights, building dashboards, and design
 ## 🎯 Career Goals  
 
 Roles in:  
+- Data Engineering  
 - Data Analytics  
-- Data Annotation / Curation  
 - Learning Analytics (AI-driven)  
 - EdTech Data Solutions  / Corporate Training /Learning and Development
 
