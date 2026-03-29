@@ -47,11 +47,11 @@ I am engaged in transforming data into insights, building dashboards, and design
 | Project | Description | Tools |
 |----------|--------------|-------|
 | [🚴 Cyclistic Bike-Share Analysis (Excel)](https://github.com/deepan-mehta-analytics/Google-Data-Analytics-Capstone-Cyclistic-Excel) | Google Data Analytics Capstone: analyzed 12 months of ride data to compare casual vs. member behavior. | Excel, Pivot Tables, Charts |
-| [📊 Python Sales Analytics Project](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights. | Python, pandas, seaborn |
+| [📊 Python Stocks Analytics Project](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights. | Python, pandas, seaborn |
 | [🧑‍💼 HR Analytics Project (Python)](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | HR data analysis to explore retention and performance patterns. | Python, pandas, matplotlib |
 | [🎓 Education Analytics (Python)](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns. | Python, pandas, plotly |
 | [🧪 Mini AI & Analytics Portfolio](https://github.com/deepan-mehta-analytics/Mini-AI-Analytics-Portfolio) | Experimental repo linking AI tools with analytics workflows. | Python, ChatGPT, Excel |
-| [🛫 BCA Final Project — A310 Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | PHP/MySQL app for aircraft weight & balance calculations. | PHP, MySQL |
+| [🛫 BCA Final Project — Aircraft Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel app for aircraft weight & balance calculations. | PHP, MySQL |
 | [🧾 MCA Final Project — Training Records System](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop app for managing and reporting training records. | JavaFX, MySQL |
 
 ---
