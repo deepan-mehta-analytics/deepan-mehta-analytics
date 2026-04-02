@@ -66,6 +66,14 @@ graph LR
     C --> D[Analytical Insights]
     D -.-> E[Next Step: GCP BigQuery Migration]
 ```
+### 🛠️ Roadmap: Transitioning to Google Cloud (PDE Phase)
+To move from local analytics to a scalable cloud architecture, the following is being implemented:
+
+-   **Data Ingestion:** Local CSV/API pulls are being migrated to **Google Cloud Storage (GCS)** for durable staging.
+-   **Data Warehousing:** A **BigQuery** schema is being designed with **Partitioning** and **Clustering** to optimize analytical query costs.
+-   **AI Integration:** Local Ollama inference is transitioning to **Vertex AI (Gemini)** for production-grade model scaling.
+-   **Automation:** **Cloud Functions** are being used to trigger FastAPI endpoints when new stock data is uploaded to GCS.
+
 ---
 
 ## 🎓 Certifications  
