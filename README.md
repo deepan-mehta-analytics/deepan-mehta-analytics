@@ -64,25 +64,7 @@ I am engaged in transforming data into insights, building dashboards, and design
 - SITA DCS & Load Sheet Certified  
 
 ---
-## 📈 Featured Project: AI-Driven Financial Dashboard
-> **Status:** Phase 1 (Local Analytics & AI Foundations)
 
-This project integrates my **Google/IBM Data Analytics** background with modern AI (Ollama/Qwen2.5) to analyze market trends. I am currently transitioning this architecture to **Google Cloud Platform** as part of my PDE certification journey.
-
-```mermaid
-graph LR
-    A[Financial APIs] --> B(FastAPI + Python)
-    B --> C{Ollama / Qwen2.5}
-    C --> D[Analytical Insights]
-    D -.-> E[Next Step: GCP BigQuery Migration]
-
-## 🎯 Career Goals  
-
-Roles in:  
-- Data Engineering  
-- Data Analytics  
-- Learning Analytics (AI-driven)  
-- EdTech Data Solutions  / Corporate Training /Learning and Development
 
 My mission is to bridge **Analytics and Learning** — using data to make education and training more effective.
 
