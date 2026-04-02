@@ -1,8 +1,11 @@
 
 # 👋 Hi, I’m Deepan Mehta  
+> ### "When learning meets data, growth becomes measurable and inevitable."
 
-**Data Engineering | AI & Data Analytics | Learning and Development | EdTech in Training | Lifelong Learning **
+>**Learning:** 🎓 Google Professional Data Engineer (PDE)  
+>**Building:** 📈 [AI-Driven Financial Dashboard](https://github.com) (FastAPI + Qwen2.5)
 
+>**Data Engineering | AI & Data Analytics | Learning and Development | EdTech | Lifelong Learning**
 ---
 
 ## 🌟 About Me  
