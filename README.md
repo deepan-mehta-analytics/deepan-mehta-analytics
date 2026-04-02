@@ -53,7 +53,19 @@ I am engaged in transforming data into insights, building dashboards, and design
 | [🧪 Mini AI & Analytics Portfolio](https://github.com/deepan-mehta-analytics/Mini-AI-Analytics-Portfolio) | Experimental repo linking AI tools with analytics workflows. | Python, ChatGPT, Excel |
 | [🛫 BCA Final Project — Aircraft Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel app for aircraft weight & balance calculations. | PHP, MySQL |
 | [🧾 MCA Final Project — Training Records System](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop app for managing and reporting training records. | JavaFX, MySQL |
+---
+## 📈 Featured Project: AI-Driven Financial Dashboard
+> **Status:** Phase 1 (Local Analytics & AI Foundations)
 
+This project integrates my **Google/IBM Data Analytics** background with modern AI (Ollama/Qwen2.5) to analyze market trends. I am currently transitioning this architecture to **Google Cloud Platform** as part of my PDE certification journey.
+
+```mermaid
+graph LR
+    A[Financial APIs] --> B(FastAPI + Python)
+    B --> C{Ollama / Qwen2.5}
+    C --> D[Analytical Insights]
+    D -.-> E[Next Step: GCP BigQuery Migration]
+```
 ---
 
 ## 🎓 Certifications  
