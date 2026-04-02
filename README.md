@@ -60,7 +60,7 @@ I am engaged in transforming data into insights, building dashboards, and design
 This project integrates my **Google/IBM Data Analytics** background with modern AI (Ollama/Qwen2.5) to analyze market trends. I am currently transitioning this architecture to **Google Cloud Platform** as part of my PDE certification journey.
 
 ```mermaid
-graph LR
+graph TD
     A[Financial APIs] --> B(FastAPI + Python)
     B --> C{Ollama / Qwen2.5}
     C --> D[Analytical Insights]
