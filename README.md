@@ -58,7 +58,7 @@ I am engaged in transforming data into insights, building dashboards, and design
 | [🛫 BCA Final Project — Aircraft Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel app for aircraft weight & balance calculations. | PHP, MySQL |
 | [🧾 MCA Final Project — Training Records System](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop app for managing and reporting training records. | JavaFX, MySQL |
 ---
-## 📈 Featured Project: AI-Driven Financial Dashboard
+## 📈 Featured Project (Work-in progress): AI-Driven Financial Dashboard
 > **Status:** Phase 1 (Local Analytics & AI Foundations)
 
 This project integrates my **Google/IBM Data Analytics** background with modern AI (Ollama/Qwen2.5) to analyze market trends. I am currently transitioning this architecture to **Google Cloud Platform** as part of my PDE certification journey.
