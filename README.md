@@ -55,8 +55,8 @@ I am engaged in transforming data into insights, building dashboards, and design
 | [🧑‍💼 Financial Analytics Project (Python)](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks (Work-In-Progress) | Python, pandas, matplotlib, llama, FastAPI  |
 | [🎓 Education Analytics (Python)](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns. | Python, pandas, plotly |
 | [🧪 Mini AI & Analytics Portfolio](https://github.com/deepan-mehta-analytics/Mini-AI-Analytics-Portfolio) | Experimental repo linking AI tools with analytics workflows. | Python, ChatGPT, Excel |
-| [🛫 BCA Project — Aircraft Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel app for aircraft weight & balance calculations. | Laravel, PHP, MySQL |
-| [🧾 MCA Project — Training Records Management](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop app for managing and reporting training records. | JavaFX, MySQL, Maven |
+| [🛫 BCA Project — Aircraft Weight & Balance Application](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel application for aircraft weight & balance calculations. | Laravel, PHP, MySQL |
+| [🧾 MCA Project — Training Records Management Application](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop application for managing and reporting training records. | JavaFX, MySQL, Maven |
 ---
 ## 📈 Featured Project (Work-in progress): AI-Driven Financial Dashboard
 > **Status:** Phase 1 (Local Analytics & AI Foundations)
