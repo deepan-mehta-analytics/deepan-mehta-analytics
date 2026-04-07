@@ -51,12 +51,12 @@ I am engaged in transforming data into insights, building dashboards, and design
 | Project | Description | Tools |
 |----------|--------------|-------|
 | [🚴 Cyclistic Bike-Share Analysis ](https://github.com/deepan-mehta-analytics/Google-Data-Analytics-Capstone-Cyclistic) | Google Data Analytics Capstone: analyzed two Q1 quarters of ride data to compare casual vs. member behavior. | Python, Excel, Pivot Tables, Charts, Tableau Dashboard, Power-point |
-| [📊 Python Stocks Analytics Project](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights. | Python, pandas, seaborn |
-| [🧑‍💼 HR Analytics Project (Python)](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | HR data analysis to explore retention and performance patterns. | Python, pandas, matplotlib |
+| [📊 Python Sales Analytics Project](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights. | Python, pandas, seaborn |
+| [🧑‍💼 Financial Analytics Project (Python)](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks (Work-In-Progress) | Python, pandas, matplotlib, llama, FastAPI  |
 | [🎓 Education Analytics (Python)](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns. | Python, pandas, plotly |
 | [🧪 Mini AI & Analytics Portfolio](https://github.com/deepan-mehta-analytics/Mini-AI-Analytics-Portfolio) | Experimental repo linking AI tools with analytics workflows. | Python, ChatGPT, Excel |
-| [🛫 BCA Final Project — Aircraft Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel app for aircraft weight & balance calculations. | PHP, MySQL |
-| [🧾 MCA Final Project — Training Records System](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop app for managing and reporting training records. | JavaFX, MySQL |
+| [🛫 BCA Final Project — Aircraft Load Sheet App](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel app for aircraft weight & balance calculations. | Laravel, PHP, MySQL |
+| [🧾 MCA Final Project — Training Records System](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop app for managing and reporting training records. | JavaFX, MySQL, Maven |
 ---
 ## 📈 Featured Project (Work-in progress): AI-Driven Financial Dashboard
 > **Status:** Phase 1 (Local Analytics & AI Foundations)
