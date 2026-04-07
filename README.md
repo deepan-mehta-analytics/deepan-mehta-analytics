@@ -10,22 +10,23 @@
 
 ## 🌟 About Me  
 
-I’m a data-driven professional passionate about applying **AI, Data Engineering and Analytics** to improve **Learning and Development (L&D)** outcomes.  
+I’m a data-driven professional passionate about applying **AI, Data Engineering and Analytics** to improve **Learning and Development (L&D)** outcomes.
+
 After a successful career in **Aviation training and Airport operations**, I’ve transitioned toward **data engineering and data analytics**, where I can apply analytical methods to solve learning and business problems.  
 
 I am engaged in transforming data into insights, building dashboards, and designing data-informed solutions.  
 
 **Current focus:** AI Agents • LLM's • Building analytics projects and applications in Python • Excel • and R.  
-**Future focus:** Data Engineering / AI-driven Learning / Analytics and EdTech solutions for Corporate Training / Learning and Development
+**Upcoming focus:** Data Engineering / AI-driven Learning / Analytics and EdTech solutions for Corporate Training / Learning and Development
 
 ---
 
 ## 🧠 Core Competencies  
 
 **Data Analytics:** Excel • SQL • R • Python • MySQL • BigQuery  
-**Visualization & Reporting:** Tableau • Looker Studio • Power BI • ggplot2  
+**Visualization & Reporting:** Tableau • Looker Studio • ggplot2  
 **AI & Automation:** Prompt Engineering • AI Agents • Automation • Predictive Analytics  
-**Learning & EdTech:** Instructional Design •   
+**Learning & EdTech:** Instructional Design    
 **Development (Legacy Projects):** PHP • MySQL • JavaFX • HTML/CSS  
 **Soft Skills:** Facilitation • Analytical Thinking • Communication • Continuous Learning  
 
