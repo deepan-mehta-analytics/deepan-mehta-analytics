@@ -82,8 +82,8 @@ To move from local analytics to a scalable cloud architecture, the following is 
 
 ## 🎓 Certifications  
 
-- Google Data Analytics Professional Certificate (Coursera)  
-- IBM Data Analytics with Excel & R (Coursera — in progress)  
+- Google Data Analytics Professional Certificate   
+- IBM Data Analytics Professional Certificate with Excel & R   
 - IATA Professional Skills for Dangerous Goods Instructors  
 - SITA DCS & Load Sheet Certified  
 
