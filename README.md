@@ -54,7 +54,6 @@ I am engaged in transforming data into insights, building dashboards, and design
 | [📊 Python Sales Analytics](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights. | Python, pandas, seaborn |
 | [🧑‍💼 Financial Portfolio Analytics ](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks (Work-In-Progress) | Python, pandas, matplotlib, llama, FastAPI  |
 | [🎓 Education Analytics](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns. | Python, pandas, plotly |
-| [🧪 Mini AI & Analytics Portfolio](https://github.com/deepan-mehta-analytics/Mini-AI-Analytics-Portfolio) | Experimental repo linking AI tools with analytics workflows. | Python, ChatGPT, Excel |
 | [🛫 BCA Project — Aircraft Weight & Balance Application](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel application for aircraft weight & balance calculations. | Laravel, PHP, MySQL |
 | [🧾 MCA Project — Training Records Management Application](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop application for managing and reporting training records. | JavaFX, MySQL, Maven |
 ---
