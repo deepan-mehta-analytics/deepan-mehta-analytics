@@ -49,7 +49,7 @@ I am engaged in transforming data into insights, building dashboards, and design
 
 | Project | Description | Tools |
 |----------|--------------|-------|
-| [🚴 Cyclistic Bike-Share Analysis ](https://github.com/deepan-mehta-analytics/cyclistic-bike-share-analysis) | Google Data Analytics Capstone: analyzed two Q1 quarters of ride data to compare casual vs. member behavior. | Python, Excel, Pivot Tables, Charts, Tableau Dashboard, Power-point |
+| [🚴 Cyclistic Bike-Share Analysis ](https://github.com/deepan-mehta-analytics/cyclistic-bike-share-analysis) | Google Data Analytics Capstone: analyzed two Q1 quarters of ride data to compare casual vs. member behavior. | Python, Excel, Pivot Tables, Charts, Tableau, Pandas, NumPy |
 | [📊 Python Sales Analytics](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights(Work-In-Progress)  | Python, pandas, seaborn |
 | [🧑‍💼 Financial Portfolio Analytics ](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks (Work-In-Progress) | Python, pandas, matplotlib, llama, FastAPI  |
 | [🎓 Education Analytics](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns.(Work-In-Progress) | Python, pandas, plotly |
