@@ -88,7 +88,7 @@ To move from local analytics to a scalable cloud architecture, the following is 
 ---
 
 
-My mission is to bridge **Data Engineering and Learning** — using data to make education and training more effective.
+My mission is to bridge **Data Engineering and Learning** — using data to make learning, Business Analysis and training more effective.
 
 ---
 
