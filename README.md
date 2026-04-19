@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="./linkedin-Banner-2.png" alt="Deepan Mehta Banner"/>
+</p>
 # 👋 Hi, I’m Deepan Mehta  
 > ### "When learning meets data, growth becomes measurable and inevitable."
 
