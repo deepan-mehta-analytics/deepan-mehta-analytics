@@ -2,10 +2,11 @@
 # 👋 Hi, I’m Deepan Mehta  
 > ### "When learning meets data, growth becomes measurable and inevitable."
 
->**Learning:** 🎓 Data Engineering  
+>**Data Analytics | Data Engineering | AI Systems**
+>
+>**Building:** end-to-end data solutions across ETL, analytics, and machine learning.
+>
 >**Building:** 📈 [AI-Driven Financial Dashboard](https://github.com) (llama + FastAPI + Qwen2.5(or latest) on Local System -> Later Cloud.
-
->**Data Engineering | AI & Data Analytics | Learning and Development | EdTech | Lifelong Learning**
 ---
 
 ## 🌟 About Me  
@@ -14,10 +15,12 @@ I’m a data-driven professional passionate about applying **AI, Data Engineerin
 
 After a successful career in **Aviation training and Airport operations**, I’ve transitioned toward **data engineering and data analytics**, where I can apply analytical methods to solve learning and business problems.  
 
-I am engaged in transforming data into insights, building dashboards, and designing data-informed solutions.  
+I build data-driven solutions covering:
 
-**Current focus:** AI Agents • LLM's • Building analytics projects and applications in Python • Excel • and R.  
-**Upcoming focus:** Data Engineering / AI-driven Learning / Analytics and EdTech solutions for Corporate Training / Learning and Development
+• ETL pipelines and data workflows  
+• Exploratory data analysis and visualization  
+• Predictive modeling using Python and R  
+• Analytics dashboards and reporting systems  
 
 ---
 
@@ -50,11 +53,11 @@ I am engaged in transforming data into insights, building dashboards, and design
 | Project | Description | Tools |
 |----------|--------------|-------|
 | [🚴 Cyclistic Bike-Share Analysis ](https://github.com/deepan-mehta-analytics/cyclistic-bike-share-analysis) | Analyzed 12 months of bike‑share trip data to uncover behavioral differences between casual riders and subscribers and propose strategies to increase membership conversions.. | Python, Excel, Pivot Tables, Charts, Tableau, Pandas, NumPy |
-| [📊 Python Sales Analytics](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights(Work-In-Progress)  | Python, pandas, seaborn |
-| [🧑‍💼 Financial Portfolio Analytics ](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks (Work-In-Progress) | Python, pandas, matplotlib, llama, FastAPI  |
+| [📊 Python Sales Analytics](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights  | Python, pandas, seaborn |
+| [🧑‍💼 Financial Portfolio Analytics ](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks  | Python, pandas, matplotlib, llama, FastAPI  |
 | [🎓 Education Analytics](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns.(Work-In-Progress) | Python, pandas, plotly |
-| [🛫 BCA Project — Aircraft Weight & Balance Application](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel application for aircraft weight & balance calculations. (Work-In-Progress, converting from legacy PHP) | Laravel, PHP, MySQL |
-| [🧾 MCA Project — Training Records Management Application](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop application for managing and reporting training records.(Work-In-Progress, converting from deprecated JavaFX) | JavaFX, MySQL, Maven |
+| [🛫 BCA Project — Aircraft Weight & Balance Application](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel application for aircraft weight & balance calculations. (Refactoring from legacy PHP) | Laravel, PHP, MySQL |
+| [🧾 MCA Project — Training Records Management Application](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop application for managing and reporting training records.(Refactoring from deprecated JavaFX) | JavaFX, MySQL, Maven |
 ---
 ## 📈 Featured Project (Work-in progress): AI-Driven Financial Dashboard
 > **Status:** Phase 1 (Local Analytics & AI Foundations)
@@ -82,8 +85,6 @@ To move from local analytics to a scalable cloud architecture, the following is 
 
 - GOOGLE Data Analytics Professional Certificate   
 - IBM Data Analytics Professional Certificate with Excel & R   
-- IATA Professional Skills for Dangerous Goods Instructors  
-- SITA DCS & Load Sheet Certified  
 
 ---
 
@@ -95,7 +96,7 @@ My mission is to bridge **Data Engineering and Learning** — using data to make
 ## 📫 Contact  
 
 📍 Mumbai, India  
-📧 supernova.surfer@gmail.com  
+📧 deepanmehta@live.com  
 🔗 [LinkedIn](your-link)  
 💼 [GitHub Projects](https://github.com/deepan-mehta-analytics?tab=repositories)
 
