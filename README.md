@@ -1,15 +1,18 @@
 <p align="center">
-  <img src="Linkedin-Banner-3.png" alt="Deepan Mehta Banner"/>
+  <img src="Linkedin-Banner-3.png" alt="Deepan Mehta Banner" width="650"/>
 </p>
 <hr style="border: 1px solid #2f2f2f;">
-# 👋 Hi, I’m Deepan Mehta  
-> ### "When learning meets data, growth becomes measurable and inevitable."
 
->**Data Analytics | Data Engineering | AI Systems**
+## 👋 Hi, I’m Deepan Mehta  
+
+> *"When learning meets data, growth becomes measurable and inevitable."*
+
+> **Data Analytics | Data Engineering | AI Systems**
 >
->**Building:** end-to-end data solutions across ETL, analytics, and machine learning.
+> Building end-to-end data solutions across ETL, analytics, and machine learning.
 >
->**Building:** 📈 [AI-Driven Financial Dashboard](https://github.com) (llama + FastAPI + Qwen2.5(or latest) on Local System -> Later Cloud.
+> **Current Project:** 📈 [AI-Driven Financial Dashboard](https://github.com)
+> (Llama + FastAPI + Qwen2.5 → transitioning to cloud)
 ---
 
 ## 🌟 About Me  
