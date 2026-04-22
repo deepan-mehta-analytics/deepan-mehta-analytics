@@ -103,7 +103,7 @@ My mission is to bridge **Data Engineering and Learning** — using data to make
 
 📍 Mumbai, India  
 📧 deepanmehta@live.com  
-🔗 [LinkedIn](your-link)  
+🔗 [LinkedIn](https://www.linkedin.com/in/d-mehta-054519341/)  
 💼 [GitHub Projects](https://github.com/deepan-mehta-analytics?tab=repositories)
 
 ---
