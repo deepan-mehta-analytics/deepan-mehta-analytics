@@ -17,7 +17,7 @@
 
 ## 🌟 About Me  
 
-I’m a data-driven professional passionate about applying **AI, Data Engineering and Analytics** to improve **Learning and Development (L&D)** outcomes.
+I’m a data-driven professional passionate about applying **AI, Data Engineering and Analytics** to improve **Business** AND **Learning and Development (L&D)** outcomes.
 
 After a successful career in **Aviation training and Airport operations**, I’ve transitioned toward **data engineering and data analytics**, where I can apply analytical methods to solve learning and business problems.  
 
