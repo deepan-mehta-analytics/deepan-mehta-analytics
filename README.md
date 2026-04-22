@@ -12,7 +12,7 @@
 > Building end-to-end data solutions across ETL, analytics, and machine learning.
 >
 > **Current Project:** 📈 [AI-Driven Financial Dashboard](https://github.com)
-> (Llama + FastAPI + Qwen2.5 → transitioning to cloud)
+> (Llama + FastAPI + Qwen2.5 (or other models) → transitioning to cloud)
 ---
 
 ## 🌟 About Me  
