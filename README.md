@@ -58,9 +58,9 @@ I build data-driven solutions covering:
 
 | Project | Description | Tools |
 |----------|--------------|-------|
+| 🏗️ [Sales Data Pipeline (ETL)](https://github.com/deepan-mehta-analytics/sales-data-pipeline) | Built a production-grade ETL pipeline using Medallion architecture (Bronze/Silver/Gold) to transform raw sales data into validated, analytics-ready datasets with automated data quality checks, feature engineering, and CI/CD workflows. | Python, Pandas, ETL, DuckDB, Docker, CI/CD, Data Engineering |
 | [🚲 Bike Demand Prediction System](https://github.com/deepan-mehta-analytics/bike-demand-prediction) | Built an end-to-end predictive analytics system using weather and temporal data to forecast bike demand, integrating ETL, regression modeling, and real-time API data into an interactive Shiny dashboard with geospatial insights. | R, Shiny, Machine Learning, Leaflet, API Integration, ggplot2 |
 | [🚴 Cyclistic Bike-Share Analysis](https://github.com/deepan-mehta-analytics/cyclistic-bike-share-analysis) | Analyzed 12 months of bike-share trip data to identify behavioral differences between casual riders and subscribers and propose strategies to increase membership conversions. | Python, Excel, Pivot Tables, Charts, Tableau, Pandas, NumPy |
-| [📊 Sales Data Pipeline](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights  | Python, pandas, seaborn |
 | [🧑‍💼 Financial Portfolio Analytics ](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks  | Python, pandas, matplotlib, llama, FastAPI  |
 | [🎓 Aviation-training-analytics](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns. | Python, pandas, plotly |
 
