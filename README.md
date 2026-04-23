@@ -63,8 +63,7 @@ I build data-driven solutions covering:
 | [📊 Python Sales Analytics](https://github.com/deepan-mehta-analytics/Python-Sales-Analytics-Project) | Sales dataset analysis using Python — cleaning, visualization, and insights  | Python, pandas, seaborn |
 | [🧑‍💼 Financial Portfolio Analytics ](https://github.com/deepan-mehta-analytics/Python-HR-Analytics-Project) | Stocks analysis to analyze portfolios and Stocks  | Python, pandas, matplotlib, llama, FastAPI  |
 | [🎓 Education Analytics](https://github.com/deepan-mehta-analytics/Python-Education-Analytics-Project) | Analyze student performance data to discover learning patterns.(Work-In-Progress) | Python, pandas, plotly |
-| [🛫 BCA Project — Aircraft Weight & Balance Application](https://github.com/deepan-mehta-analytics/BCA-Project-Aircraft-A310-Load-Sheet-App) | Laravel application for aircraft weight & balance calculations. (Refactoring from legacy PHP) | Laravel, MySQL |
-| [🧾 MCA Project — Training Records Management Application](https://github.com/deepan-mehta-analytics/MCA-Project-Training-Records-Management-System) | JavaFX desktop application for managing and reporting training records.(Refactoring from deprecated JavaFX) | JavaFX, MySQL, Maven |
+
 ---
 ## 📈 Featured Project (Work-in progress): AI-Driven Financial Dashboard
 > **Status:** Phase 1 (Local Analytics & AI Foundations)
