@@ -54,6 +54,14 @@ I build data-driven solutions covering:
 ![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
+**Cloud ready Data Engineering:**
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-GCP-blueviolet)](https://cloud.google.com/)
+[![BigQuery](https://img.shields.io/badge/BigQuery-FE7A16?logo=googlecloud&logoColor=fff)](https://cloud.google.com/bigquery)
+[![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?logo=googlecloud&logoColor=fff)](https://cloud.google.com/vertex-ai)
+[![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4?logo=googlecloud&logoColor=fff)](https://cloud.google.com/run)
+[![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=fff)](https://www.terraform.io/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-00599C?logo=fastapi&logoColor=fff)](https://fastapi.tiangolo.com/)
+
 ---
 ## 💼 Featured Projects  
 
