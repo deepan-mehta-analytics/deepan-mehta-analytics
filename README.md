@@ -23,9 +23,10 @@ After a successful career in **Aviation training and Airport operations**, I’v
 
 I build data-driven solutions covering:
 
+• AI/ML Engineering.
 • ETL pipelines and data workflows  
 • Exploratory data analysis and visualization  
-• Predictive modeling using Python and R + ML 
+• Predictive modeling using Python and R 
 • Analytics dashboards and reporting systems  
 
 ---
