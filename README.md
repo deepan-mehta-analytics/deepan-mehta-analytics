@@ -25,7 +25,7 @@ I build data-driven solutions covering:
 
 • ETL pipelines and data workflows  
 • Exploratory data analysis and visualization  
-• Predictive modeling using Python and R  
+• Predictive modeling using Python and R + ML 
 • Analytics dashboards and reporting systems  
 
 ---
