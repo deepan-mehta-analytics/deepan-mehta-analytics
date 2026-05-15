@@ -12,7 +12,7 @@
 >
 > Building end-to-end data solutions across ETL, analytics, and machine learning.
 >
-> **Current Project:** 📈 AI-Driven Financial Dashboard — Llama + FastAPI + Local LLM → transitioning to cloud
+> **Current Project:** 🚲 Bike Demand ML System — FastAPI live on GCP Cloud Run (v2.1.0); Prometheus metrics + Cloud Logging shipped; next: Pub/Sub + Dataflow streaming pipeline (v3.0.0)
 
 ---
 
@@ -24,11 +24,13 @@ After a successful career in **Aviation training and Airport operations**, I've 
 
 I build data-driven solutions covering:
 
-- AI/ML Engineering
+- AI/ML Engineering — end-to-end training pipelines, inference APIs, and production cloud deployment
+- Cloud Data Engineering — GCP Cloud Run, Artifact Registry, BigQuery; containerised CI/CD
+- Observability — structured JSON logging (Cloud Logging), Prometheus metrics endpoints
 - ETL pipelines and data workflows
 - Exploratory data analysis and visualization
-- Predictive modeling using Python and R
-- Analytics dashboards and reporting systems
+- Predictive modelling using Python and R
+- Analytics dashboards and reporting systems (R Shiny, Tableau, Looker Studio)
 
 ---
 
@@ -50,6 +52,7 @@ I build data-driven solutions covering:
 [![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+[![Prometheus](https://img.shields.io/badge/Prometheus-metrics-orange?style=for-the-badge&logo=prometheus&logoColor=white)](https://img.shields.io/badge/Prometheus-metrics-orange?style=for-the-badge&logo=prometheus&logoColor=white)
 
 **Visualization & Reporting:**
 
@@ -64,6 +67,7 @@ I build data-driven solutions covering:
 [![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white)](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white)
 [![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://img.shields.io/badge/Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 [![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://img.shields.io/badge/Vertex%20AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+[![Artifact Registry](https://img.shields.io/badge/Artifact%20Registry-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://img.shields.io/badge/Artifact%20Registry-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
 ---
 
@@ -72,8 +76,8 @@ I build data-driven solutions covering:
 | Project | Description | Tools |
 |---------|-------------|-------|
 | 🏗️ [Sales Data Pipeline (ETL)](https://github.com/deepan-mehta-analytics/sales-data-pipeline) | Built a production-grade ETL pipeline using Medallion architecture (Bronze/Silver/Gold) to transform raw sales data into validated, analytics-ready datasets with automated data quality checks, feature engineering, and CI/CD workflows. | Python, Pandas, DuckDB, Docker, GitHub Actions |
-| 🚲 [Bike Demand Prediction System](https://github.com/deepan-mehta-analytics/bike-demand-prediction) | Built a 6-city live demand dashboard integrating OpenWeather forecasts, GBFS live station data, and a Python ML backend. Features UC1 fleet rebalancing alerts and UC2 rider demand scores across Seoul, London, NYC, DC, Paris, and Chicago. | R, Shiny, httr, Leaflet, GBFS, Docker, GitHub Actions |
-| ⚙️ [Bike Demand ML System](https://github.com/deepan-mehta-analytics/bike-demand-ml-system) | Engineered a production-grade ML system with separate training and inference pipelines, schema-aligned feature engineering, and a FastAPI prediction service. Trains 4 city models baked into a Docker image at build time; published to GHCR via CI. | Python, FastAPI, scikit-learn, Pydantic, Docker, GHCR, CI/CD |
+| 🚲 [Bike Demand Prediction System](https://github.com/deepan-mehta-analytics/bike-demand-prediction) | Built a 6-city live demand dashboard integrating OpenWeather forecasts, GBFS live station data, and a FastAPI ML backend. Features UC1 fleet rebalancing alerts and UC2 rider demand scores across Seoul, London, NYC, DC, Paris, and Chicago. | R, Shiny, httr, Leaflet, GBFS, FastAPI (backend), Docker, GitHub Actions |
+| ⚙️ [Bike Demand ML System](https://github.com/deepan-mehta-analytics/bike-demand-ml-system) | Production ML inference API deployed live to GCP Cloud Run. Trains 4-city Random Forest models (Seoul, London, NYC, DC); models baked into Docker image at build time. CI auto-publishes to GHCR + Artifact Registry and redeploys on merge via `gcloud run deploy`. v2.1.0: structured JSON logging → Cloud Logging + Prometheus `/metrics` endpoint. | Python, FastAPI, scikit-learn, Pydantic, Docker, GCP Cloud Run, Prometheus, GitHub Actions |
 | 🧑‍💼 Financial Portfolio Analytics *(repo coming soon)* | Designing and developing a modular financial analytics platform for tracking and evaluating stock portfolios, integrating data pipelines, performance metrics, and API-driven insights within a scalable backend architecture. | Python, Pandas, FastAPI, LLM Integration |
 | 🎓 Corporate Training Analytics Platform | Refactor->Re-write -> full-stack training records and analytics system to manage multi-course training programmes, featuring a unified data model, role-based admin dashboard, KPI tracking, event/result management, and reporting abstraction. | Java, SQL, Data Modeling, KPI Analytics, Role-Based Access |
 
