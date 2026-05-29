@@ -38,8 +38,9 @@ I build data-driven solutions covering:
 
 **Programming & Analysis:**
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/-python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/-BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white)
@@ -83,19 +84,62 @@ I build data-driven solutions covering:
 
 ---
 
-## 📊 Architecture: Sales Data Pipeline
+## 📊 Architecture: Sales Data Pipeline — Current & Roadmap
 
-> Medallion ETL — raw sales CSV to analytics-ready datasets, served via FastAPI and containerised for GHCR release.
+> The Sales Data Pipeline evolves from a production-grade Medallion ETL into a full customer analytics platform — unifying transactions, segmentation, and retention into a single source of truth.
 
 ```mermaid
 flowchart TD
-    A["📂 Raw Sales CSV"] --> B["🥉 Bronze Layer\nIngestion + Pydantic validation"]
-    B --> C["🥈 Silver Layer\nCleaning · Dedup · Feature engineering"]
-    C --> D["🥇 Gold Layer\nAnalytics-ready Parquet + KPI aggregations"]
-    D --> E["🦆 DuckDB\nIn-process analytical queries"]
-    E --> F["⚡ FastAPI REST API"]
-    F --> G["🐳 Docker → GHCR\nMulti-stage build · CI publish on tag"]
-    H["✅ GitHub Actions\nLint · Test · Coverage · Release"] --> G
+    subgraph Sources["📥 Data Sources"]
+        S1["CRM"] & S2["POS / Transactions"] & S3["Web Analytics"]
+    end
+
+    subgraph ETL["🏗️ Medallion ETL  ✅  Built — Python · Pandas · Pydantic"]
+        B["🥉 Bronze — Ingest + schema validation"]
+        C["🥈 Silver — Clean · Dedup · Feature engineering"]
+        D["🥇 Gold — Star schema · AOV · CLV pre-aggregated"]
+    end
+
+    subgraph Infra["⚙️ Data Infrastructure  🔜  Planned — Airflow · BigQuery · Snowflake"]
+        ORC["Apache Airflow<br/>Scheduled DAGs · Dependency tracking"]
+        WH["BigQuery / Snowflake<br/>Partitioned · Clustered · Cost-optimised"]
+    end
+
+    subgraph Seg["🧠 Customer Segmentation  🔜  Planned — scikit-learn · Databricks"]
+        E["RFM Analysis<br/>Recency · Frequency · Monetary"]
+        F["Cohort Analysis<br/>Signup cohorts · Engagement lifecycle"]
+        G["K-Means Clustering<br/>Unsupervised persona discovery"]
+    end
+
+    subgraph Ret["🔁 Retention Analytics  🔜  Planned — scikit-learn · Databricks"]
+        H["Churn Classification<br/>At-risk flagging · Re-engagement triggers"]
+        I["LTV Correlation<br/>High-value segment identification"]
+    end
+
+    subgraph Serving["⚡ Serving Layer  ✅  Built — FastAPI · DuckDB · Docker"]
+        J["🦆 DuckDB — In-process analytics"]
+        K["FastAPI REST API"]
+    end
+
+    subgraph Dash["📊 Analytics Dashboard  🔜  Planned — Tableau · Streamlit"]
+        L["KPI tracking · Segment views<br/>Retention curves · LTV by cohort"]
+    end
+
+    Sources --> B
+    B --> C
+    C --> D
+    D --> ORC
+    ORC --> WH
+    D --> J
+    WH --> E
+    WH --> F
+    E --> G
+    G --> H
+    F --> H
+    H --> I
+    J --> K
+    I --> K
+    K --> L
 ```
 
 ---
