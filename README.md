@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Linkedin-Banner-3.png" alt="Deepan Mehta Banner" width="650"/>
+ 
 </p>
 <hr style="border: 1px solid #2f2f2f;">
 
