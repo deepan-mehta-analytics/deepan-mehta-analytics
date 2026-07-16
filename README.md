@@ -73,6 +73,12 @@ I build data-driven solutions covering:
 ![Vertex AI](https://img.shields.io/badge/-Vertex%20AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Artifact Registry](https://img.shields.io/badge/-Artifact%20Registry-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
+**Data Warehousing & Cortex AI:**
+
+![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Cortex AI](https://img.shields.io/badge/-Cortex_AI-6E56CF?style=for-the-badge)
+![Dynamic Tables](https://img.shields.io/badge/-Dynamic%20Tables-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+
 ---
 
 ## 💼 Featured Projects
@@ -84,6 +90,7 @@ I build data-driven solutions covering:
 | ⚙️ [Bike Demand ML System](https://github.com/deepan-mehta-analytics/bike-demand-ml-system) | Production ML inference API live on **GCP Cloud Run** (v4.5.0). Trains 6-city Random Forest models (Seoul, London, NYC, DC, Paris, Chicago); models baked into Docker image at build time. CI auto-publishes to GHCR + Artifact Registry and redeploys on merge via `gcloud run deploy`. RMSE accuracy gates in CI, cost-audit alerting via Slack, structured JSON logging → Cloud Logging, Prometheus `/metrics` endpoint. | Python, FastAPI, scikit-learn, Pydantic, Docker, GCP Cloud Run, Prometheus, GitHub Actions |
 | 🏠 [StayOps — Rental Ops Console](https://github.com/deepan-mehta-analytics/stayops) | Multi-channel booking reconciliation engine and AI-assisted ops console for short/mid-term rental operators. Ingests bookings from CSV and Google Sheets (idempotent SHA-256 dedup), detects 4 conflict types automatically (duplicates, double-bookings, pricing anomalies, gap nights), and surfaces live KPI dashboards and SQL reports — built end-to-end with Claude Code on Next.js 16 + Supabase. Phase 2: Claude tool-calling agent layer. | TypeScript, Next.js 16, Drizzle ORM, Supabase, shadcn/ui, Anthropic SDK, Vercel |
 | 🎓 Corporate Training Analytics Platform | Refactor->Re-write -> full-stack training records and analytics system to manage multi-course training programmes, featuring a unified data model, role-based admin dashboard, KPI tracking, event/result management, and reporting abstraction. | Java, SQL, Data Modeling, KPI Analytics, Role-Based Access |
+| 🧾 [Snowflake COCO — AP Invoice Intelligence](https://github.com/deepan-mehta-analytics/snowflake-coco) | Multi-source accounts-payable pipeline running entirely inside Snowflake. Dynamic Tables conform invoices from an ERP export, a vendor portal API, and OCR'd email attachments into a native Semantic View; a Cortex Agent (Analyst + Search tools) answers natural-language questions, checked against a golden-set evaluation harness. *In development.* | Snowflake, SQL, Dynamic Tables, Cortex Analyst, Cortex Search, Python |
 
 ---
 
