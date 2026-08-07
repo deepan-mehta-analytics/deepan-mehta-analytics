@@ -43,6 +43,7 @@ I build data-driven solutions covering:
 ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -52,6 +53,8 @@ I build data-driven solutions covering:
 **ML Engineering & APIs:**
 
 ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -92,6 +95,7 @@ I build data-driven solutions covering:
 | 🏠 [StayOps — Rental Ops Console](https://github.com/deepan-mehta-analytics/stayops) | Multi-channel booking reconciliation engine and AI-assisted ops console for short/mid-term rental operators. Ingests bookings from CSV and Google Sheets (idempotent SHA-256 dedup), detects 4 conflict types automatically (duplicates, double-bookings, pricing anomalies, gap nights), and surfaces live KPI dashboards and SQL reports — built end-to-end with Claude Code on Next.js 16 + Supabase. Phase 2: Claude tool-calling agent layer. | TypeScript, Next.js 16, Drizzle ORM, Supabase, shadcn/ui, Anthropic SDK, Vercel |
 | 🎓 Corporate Training Analytics Platform | Refactor->Re-write -> full-stack training records and analytics system to manage multi-course training programmes, featuring a unified data model, role-based admin dashboard, KPI tracking, event/result management, and reporting abstraction. | Java, SQL, Data Modeling, KPI Analytics, Role-Based Access |
 | 🧾 [Snowflake Cortex AI — AP Invoice Intelligence](https://github.com/deepan-mehta-analytics/snowflake-cortex-ai) | Multi-source accounts-payable pipeline running entirely inside Snowflake. Dynamic Tables conform invoices from SAP, Oracle, Baan, and Workday into a native Semantic View per documented business rules; a Cortex Agent (Analyst) answers natural-language questions via governed text-to-SQL, checked against a 15-question golden evaluation set (13/15 passed). **Live on Snowflake (v0.1.0).** | Snowflake, SQL, Dynamic Tables, Cortex Analyst, Cortex Agents, Python |
+| 🧾 [AI Expense Text Classification](https://github.com/deepan-mehta-analytics/ai-expense-classification) | NLP pipeline classifying a real-world, anonymized FY23 expense ledger into Services/Equipment/Material — built against a documented PRD, with no pre-existing category labels to learn from. Compares TF-IDF + classical ML (94.4% accuracy, 0.93 macro F1 — selected) against a zero-shot transformer baseline, backed by a documented labeling rubric, 5-fold cross-validation, and an auto-generated executive summary. **v1.0.0 shipped.** | Python, scikit-learn, TF-IDF, Hugging Face Transformers, Jupyter, pytest |
 
 ---
 
