@@ -10,7 +10,7 @@
 
 > **Data Analytics | Data Engineering | AI Systems**
 >
-> Building end-to-end data solutions across ETL, analytics, and machine learning.
+> Building end-to-end data solutions across ETL, analytics, machine learning and AI engineering
 >
 > **Current Project:** 🚲 [Bike Demand ML System](https://github.com/deepan-mehta-analytics/bike-demand-ml-system) — 6-city Random Forest inference API live on **GCP Cloud Run** (v4.5.0); RMSE accuracy gates in CI, cost-audit alerting via Slack, Cloud Logging + Prometheus metrics; companion [R Shiny dashboard](https://github.com/deepan-mehta-analytics/bike-demand-prediction) with live GBFS + weather feeds across 6 cities — next: drift monitoring pipeline (v4.6.0)
 
