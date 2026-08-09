@@ -73,6 +73,7 @@ I build data-driven solutions covering:
 ![Cloud Run](https://img.shields.io/badge/-Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Vertex AI](https://img.shields.io/badge/-Vertex%20AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Artifact Registry](https://img.shields.io/badge/-Artifact%20Registry-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/-Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 
 **Data Warehousing & Cortex AI:**
 
@@ -86,7 +87,7 @@ I build data-driven solutions covering:
 
 | Project | Description | Tools |
 |---------|-------------|-------|
-| 🏗️ [Sales Data Pipeline (ETL)](https://github.com/deepan-mehta-analytics/sales-data-pipeline) | Built a production-grade ETL pipeline using Medallion architecture (Bronze/Silver/Gold) to transform raw sales data into validated, analytics-ready datasets with automated data quality checks, feature engineering, and CI/CD workflows. | Python, Pandas, DuckDB, Docker, GitHub Actions |
+| 🏗️ [Sales Data Pipeline (ETL)](https://github.com/deepan-mehta-analytics/sales-data-pipeline) | Built a production-grade ETL pipeline using Medallion architecture (Bronze/Silver/Gold) to transform raw sales data into validated, analytics-ready datasets with automated data quality checks, feature engineering, and CI/CD workflows. Orchestrated via a self-hosted Apache Airflow DAG (8 independently retryable tasks) alongside the existing GitHub Actions cron; BigQuery cloud warehouse in progress. | Python, Pandas, DuckDB, Apache Airflow, Docker, GitHub Actions |
 | 🚲 [Bike Demand Prediction System](https://github.com/deepan-mehta-analytics/bike-demand-prediction) | Built a 6-city live demand dashboard integrating OpenWeather forecasts, GBFS live station data, and a FastAPI ML backend. Features UC1 fleet rebalancing alerts and UC2 rider demand scores across Seoul, London, NYC, DC, Paris, and Chicago. | R, Shiny, httr, Leaflet, GBFS, FastAPI (backend), Docker, GitHub Actions |
 | ⚙️ [Bike Demand ML System](https://github.com/deepan-mehta-analytics/bike-demand-ml-system) | Production ML inference API live on **GCP Cloud Run** (v4.5.0). Trains 6-city Random Forest models (Seoul, London, NYC, DC, Paris, Chicago); models baked into Docker image at build time. CI auto-publishes to GHCR + Artifact Registry and redeploys on merge via `gcloud run deploy`. RMSE accuracy gates in CI, cost-audit alerting via Slack, structured JSON logging → Cloud Logging, Prometheus `/metrics` endpoint. | Python, FastAPI, scikit-learn, Pydantic, Docker, GCP Cloud Run, Prometheus, GitHub Actions |
 | 🏠 [StayOps — Rental Ops Console](https://github.com/deepan-mehta-analytics/stayops) | Multi-channel booking reconciliation engine and AI-assisted ops console for short/mid-term rental operators. Ingests bookings from CSV and Google Sheets (idempotent SHA-256 dedup), detects 4 conflict types automatically (duplicates, double-bookings, pricing anomalies, gap nights), and surfaces live KPI dashboards and SQL reports — built end-to-end with Claude Code on Next.js 16 + Supabase. Phase 2: Claude tool-calling agent layer. | TypeScript, Next.js 16, Drizzle ORM, Supabase, shadcn/ui, Anthropic SDK, Vercel |
@@ -111,9 +112,9 @@ flowchart TD
         D["🥇 Gold — Star schema · AOV · CLV pre-aggregated"]
     end
 
-    subgraph Infra["⚙️ Data Infrastructure  🔜  Planned — Airflow · BigQuery · Snowflake"]
-        ORC["Apache Airflow<br/>Scheduled DAGs · Dependency tracking"]
-        WH["BigQuery / Snowflake<br/>Partitioned · Clustered · Cost-optimised"]
+    subgraph Infra["⚙️ Data Infrastructure  🔄  In Progress — Airflow ✅ · BigQuery · Snowflake 🔜"]
+        ORC["Apache Airflow ✅<br/>Self-hosted DAG · 8 tasks · Docker Compose"]
+        WH["BigQuery / Snowflake 🔜<br/>Partitioned · Clustered · Cost-optimised"]
     end
 
     subgraph Seg["🧠 Customer Segmentation  🔜  Planned — scikit-learn · Databricks"]
