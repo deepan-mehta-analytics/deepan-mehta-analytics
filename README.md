@@ -141,6 +141,10 @@ flowchart TD
         L["KPI tracking · Segment views<br/>Retention curves · LTV by cohort"]
     end
 
+    subgraph Agent["🤖 Conversational Analytics Agent  🔜  Planned — LangGraph · Claude Sonnet 5"]
+        M["Text-to-SQL Tool-Calling Agent<br/>Natural-language queries over the warehouse"]
+    end
+
     Sources --> B
     B --> C
     C --> D
@@ -156,6 +160,7 @@ flowchart TD
     J --> K
     I --> K
     K --> L
+    L --> M
 ```
 
 ---
