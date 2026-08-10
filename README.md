@@ -170,7 +170,7 @@ flowchart TD
 ---
 
 ## 🎓 Certifications
-
+- Currently enrolled in IIT DELHI -Advanced Certfication- Foward Deployed Engineer
 - Google Data Analytics Professional Certificate
 - IBM Data Analytics Professional Certificate with Excel & R
 
