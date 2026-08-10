@@ -8,9 +8,13 @@
 
 > *"When learning meets data, growth becomes measurable and inevitable."*
 
-> **Data Analytics | Data Engineering | AI Systems**
+> **Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
+> 
+> As a **Forward Deployed Engineer** my role is to provide AI backed solutions to legacy Enterprise Systems across **ANY TECH STACK as needed by clients.**
 >
-> Building end-to-end data solutions across ETL, analytics, machine learning and AI engineering
+> **It could be Google Cloud, Azure, AWS, Agentic solutions and more.**  
+>
+> Building end-to-end AI solutions across ETL, analytics, machine learning and AI engineering
 >
 > **Current Project:** 🚲 [Bike Demand ML System](https://github.com/deepan-mehta-analytics/bike-demand-ml-system) — 6-city Random Forest inference API live on **GCP Cloud Run** (v4.5.0); RMSE accuracy gates in CI, cost-audit alerting via Slack, Cloud Logging + Prometheus metrics; companion [R Shiny dashboard](https://github.com/deepan-mehta-analytics/bike-demand-prediction) with live GBFS + weather feeds across 6 cities — next: drift monitoring pipeline (v4.6.0)
 
