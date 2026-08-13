@@ -16,7 +16,7 @@
 >
 > Building end-to-end AI solutions across ETL, analytics, machine learning and AI engineering
 >
-> **Current Project:** 🏗️ [Sales Data Pipeline](https://github.com/deepan-mehta-analytics/sales-data-pipeline) — production-grade **Medallion (Bronze → Silver → Gold) ETL** pipeline with automated data quality gates, feature engineering, and an embedded **DuckDB** analytical store; orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) syncing into a partitioned/clustered **BigQuery** cloud warehouse, live-verified end-to-end against real GCP infrastructure; **FastAPI** query layer published to **GHCR**, 132 tests enforced in CI — next: watermark-based incremental load (v2.0)
+> **Current Project:** 🏗️ [Sales Data Pipeline](https://github.com/deepan-mehta-analytics/sales-data-pipeline) — production-grade **Medallion (Bronze → Silver → Gold) ETL** pipeline with automated data quality gates, feature engineering, and an embedded **DuckDB** analytical store; orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) syncing into a partitioned/clustered **BigQuery** cloud warehouse, live-verified end-to-end against real GCP infrastructure; **FastAPI** query layer published to **GHCR**; watermark-based **incremental load** (insert-only CDC) now live, 160 tests enforced in CI — next: MLflow/W&B run tracking (v2.0)
 
 ---
 
@@ -94,7 +94,7 @@ I build data-driven solutions covering:
 
 | Project | Description | Tools |
 |---------|-------------|-------|
-| 🏗️ [Sales Data Pipeline (ETL)](https://github.com/deepan-mehta-analytics/sales-data-pipeline) | Built a production-grade ETL pipeline using **Medallion architecture (Bronze/Silver/Gold)** to transform raw sales data into validated, analytics-ready datasets with automated data quality checks, feature engineering, and CI/CD workflows. Orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) alongside the existing GitHub Actions cron, syncing into a partitioned/clustered **BigQuery cloud warehouse** — live-verified end-to-end. | Python, Pandas, DuckDB, Apache Airflow, Google BigQuery, Docker, GitHub Actions |
+| 🏗️ [Sales Data Pipeline (ETL)](https://github.com/deepan-mehta-analytics/sales-data-pipeline) | Built a production-grade ETL pipeline using **Medallion architecture (Bronze/Silver/Gold)** to transform raw sales data into validated, analytics-ready datasets with automated data quality checks, feature engineering, and CI/CD workflows. Orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) alongside the existing GitHub Actions cron, syncing into a partitioned/clustered **BigQuery cloud warehouse** — live-verified end-to-end, with watermark-based **incremental load** (insert-only CDC) now replacing full-dataset reprocessing on every run. | Python, Pandas, DuckDB, Apache Airflow, Google BigQuery, Docker, GitHub Actions |
 | 🚲 [Bike Demand Prediction System](https://github.com/deepan-mehta-analytics/bike-demand-prediction) | Built a **6-city live demand dashboard** integrating OpenWeather forecasts, GBFS live station data, and a FastAPI ML backend. Features UC1 fleet rebalancing alerts and UC2 rider demand scores across Seoul, London, NYC, DC, Paris, and Chicago. | **R, Shiny**, httr, Leaflet, GBFS, FastAPI (backend), **Docker**, GitHub Actions |
 | ⚙️ [Bike Demand ML System](https://github.com/deepan-mehta-analytics/bike-demand-ml-system) | **Production ML inference API** live on **GCP Cloud Run** (v4.5.0). Trains 6-city Random Forest models (Seoul, London, NYC, DC, Paris, Chicago); models baked into Docker image at build time. CI auto-publishes to GHCR + Artifact Registry and redeploys on merge via `gcloud run deploy`. RMSE accuracy gates in CI, cost-audit alerting via Slack, structured JSON logging → Cloud Logging, Prometheus `/metrics` endpoint. | Python, FastAPI, scikit-learn, Pydantic, Docker, GCP Cloud Run, Prometheus, GitHub Actions |
 | 🏠 [StayOps — Rental Ops Console](https://github.com/deepan-mehta-analytics/stayops) | Multi-channel booking reconciliation engine and **AI-assisted ops console** for short/mid-term rental operators. Ingests bookings from CSV and Google Sheets (idempotent SHA-256 dedup), detects 4 conflict types automatically (duplicates, double-bookings, pricing anomalies, gap nights), and surfaces live **KPI dashboards and SQL reports** — built end-to-end with Claude Code on **Next.js 16 + Supabase.** Phase 2: Claude tool-calling agent layer. | TypeScript, Next.js 16, Drizzle ORM, Supabase, shadcn/ui, Anthropic SDK, Vercel |
@@ -120,7 +120,7 @@ flowchart TD
         D["🥇 Gold — Star schema · AOV · CLV pre-aggregated"]
     end
 
-    subgraph Infra["⚙️ Data Infrastructure  🔄  In Progress — Airflow ✅ · BigQuery ✅ · Incremental load 🔜"]
+    subgraph Infra["⚙️ Data Infrastructure  🔄  In Progress — Airflow ✅ · BigQuery ✅ · Incremental load ✅"]
         ORC["Apache Airflow ✅<br/>Self-hosted DAG · 9 tasks · Docker Compose"]
         WH["BigQuery ✅<br/>Partitioned · Clustered · Live-verified"]
     end
