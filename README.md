@@ -8,7 +8,7 @@
 
 > *"When learning meets data, growth becomes measurable and inevitable."*
 
-> **Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
+> ** Applied AI Engineer | Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
 > 
 > As a **Forward Deployed Engineer** my role is to provide AI backed solutions to legacy Enterprise Systems across **ANY TECH STACK as needed by clients.**
 >
