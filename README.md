@@ -8,7 +8,7 @@
 
 > *"When learning meets data, growth becomes measurable and inevitable."*
 
-> ** Applied AI Engineer | Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
+> **Applied AI Engineer | Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
 > 
 > As a **Forward Deployed Engineer** my role is to provide AI backed solutions to legacy Enterprise Systems across **ANY TECH STACK as needed by clients.**
 >
@@ -16,7 +16,10 @@
 >
 > Building end-to-end AI solutions across ETL, analytics, machine learning and AI engineering
 >
-> **Current Project:** 🏗️ [Sales Data Pipeline](https://github.com/deepan-mehta-analytics/sales-data-pipeline) — production-grade **Medallion (Bronze → Silver → Gold) ETL** pipeline with automated data quality gates, feature engineering, and an embedded **DuckDB** analytical store; orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) syncing into a partitioned/clustered **BigQuery** cloud warehouse, live-verified end-to-end against real GCP infrastructure; **FastAPI** query layer published to **GHCR**; watermark-based **incremental load** (insert-only CDC) now live, 160 tests enforced in CI — next: MLflow/W&B run tracking (v2.0)
+> **Current Projects:**
+>
+> - 🛡️ [Databricks Fraud Detection](https://github.com/deepan-mehta-analytics/databricks-fraud-detection) — streaming fraud pipeline on the **Databricks lakehouse**: **Auto Loader** replays 6M PaySim mobile-money transactions into a **Unity Catalog** medallion layout, with duplicate, late, schema-change and malformed-data scenarios each proven by SQL checks; two-task job deployed as code via **Databricks Asset Bundles**; ingest to Bronze **verified end to end on Databricks Free Edition (v0.1.0)** with every count exact, 44 tests in CI — next: Silver dedup + velocity features, then ML scoring
+> - 🏗️ [Sales Data Pipeline](https://github.com/deepan-mehta-analytics/sales-data-pipeline) — production-grade **Medallion (Bronze → Silver → Gold) ETL** pipeline with automated data quality gates, feature engineering, and an embedded **DuckDB** analytical store; orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) syncing into a partitioned/clustered **BigQuery** cloud warehouse, live-verified end-to-end against real GCP infrastructure; **FastAPI** query layer published to **GHCR**; watermark-based **incremental load** (insert-only CDC) now live, 160 tests enforced in CI — next: MLflow/W&B run tracking (v2.0)
 
 ---
 
@@ -30,6 +33,7 @@ I build data-driven solutions covering:
 
 - AI/ML Engineering — end-to-end training pipelines, inference APIs, and production cloud deployment
 - Cloud Data Engineering — GCP Cloud Run, Artifact Registry, BigQuery; containerised CI/CD
+- Lakehouse Data Engineering — Databricks Auto Loader, Spark Structured Streaming, Delta Lake, Unity Catalog, Asset Bundles
 - Snowflake Data Cloud — Dynamic Tables, native Semantic Views, and Cortex Agents/Analyst for governed natural-language analytics
 - Observability — structured JSON logging (Cloud Logging), Prometheus metrics endpoints
 - ETL pipelines and data workflows
@@ -89,6 +93,15 @@ I build data-driven solutions covering:
 ![Dataplex](https://img.shields.io/badge/-Dataplex-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![BigLake](https://img.shields.io/badge/-BigLake-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
+**Lakehouse & Streaming (Databricks):**
+
+![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/-Spark%20Structured%20Streaming-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Auto Loader](https://img.shields.io/badge/-Auto%20Loader-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/-Delta%20Lake-00ADD4?style=for-the-badge)
+![Unity Catalog](https://img.shields.io/badge/-Unity%20Catalog-1B3139?style=for-the-badge&logo=databricks&logoColor=white)
+![Asset Bundles](https://img.shields.io/badge/-Asset%20Bundles-1B3139?style=for-the-badge&logo=databricks&logoColor=white)
+
 **Data Warehousing & Cortex AI:**
 
 ![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
@@ -101,6 +114,7 @@ I build data-driven solutions covering:
 
 | Project | Description | Tools |
 |---------|-------------|-------|
+| 🛡️ [Databricks Fraud Detection](https://github.com/deepan-mehta-analytics/databricks-fraud-detection) | **Streaming fraud-detection pipeline on the Databricks lakehouse**, built in verified phases. **Auto Loader** replays 6.36M PaySim mobile-money transactions as hourly JSON Lines files into a **Unity Catalog** medallion layout, with schema hints, `addNewColumns` evolution, rescued data and an exactly-once checkpoint. Duplicate, late, schema-change and malformed-data scenarios are each staged and proven by SQL checks. The two-task job ships as code via **Databricks Asset Bundles**. **Ingest to Bronze verified end to end on Databricks Free Edition (v0.1.0):** 5,987,427 rows, every count exact, per-file lag measured. Next: Silver, velocity features, ML scoring. | Python, **Databricks**, **Auto Loader**, **Spark Structured Streaming**, **Delta Lake**, **Unity Catalog**, Asset Bundles, pytest, GitHub Actions |
 | 🏗️ [Sales Data Pipeline (ETL)](https://github.com/deepan-mehta-analytics/sales-data-pipeline) | Built a production-grade ETL pipeline using **Medallion architecture (Bronze/Silver/Gold)** to transform raw sales data into validated, analytics-ready datasets with automated data quality checks, feature engineering, and CI/CD workflows. Orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) alongside the existing GitHub Actions cron, syncing into a partitioned/clustered **BigQuery cloud warehouse** — live-verified end-to-end, with watermark-based **incremental load** (insert-only CDC) now replacing full-dataset reprocessing on every run. | Python, Pandas, DuckDB, **Apache Airflow**, **Google BigQuery**, Docker, GitHub Actions |
 | ⚡ [GridPulse — GCP Data Platform](https://github.com/deepan-mehta-analytics/gridpulse-gcp) | **Bitemporal** GCP data platform built to cover the **Google Cloud Professional Data Engineer exam guide v4.2** end-to-end with runnable code, not notes — every settlement price keeps `event_time`, `published_at`, and `settlement_run` as separate dimensions so **nothing is ever overwritten**, and any past belief state is reconstructable via as-of queries. Runs entirely on **free-tier services and local emulators** (Pub/Sub, MinIO, Airflow, Spark) via Docker Compose, with real GCP reserved for short, **budget-capped demo windows**. Phase 1 in progress: the **Elexon BMRS REST collector, Avro-enforced Pub/Sub, Apache Beam windowing pipeline, and DLQ replay** are all built, tested, and verified end-to-end against live local services. | Python, **Terraform**, Docker, **Apache Beam**, Pub/Sub, **Airflow**, BigQuery, GitHub Actions |
 | 🚲 [Bike Demand Prediction System](https://github.com/deepan-mehta-analytics/bike-demand-prediction) | Built a **6-city live demand dashboard** integrating OpenWeather forecasts, GBFS live station data, and a FastAPI ML backend. Features UC1 fleet rebalancing alerts and UC2 rider demand scores across Seoul, London, NYC, DC, Paris, and Chicago. | **R, Shiny**, httr, Leaflet, GBFS, FastAPI (backend), **Docker**, GitHub Actions |
@@ -178,7 +192,7 @@ flowchart TD
 ---
 
 ## 🎓 Certifications
-- Currently enrolled in IIT DELHI -Advanced Certfication- Foward Deployed Engineer
+- Currently enrolled in IIT Delhi — Advanced Certification: Forward Deployed Engineer
 - Google Data Analytics Professional Certificate
 - IBM Data Analytics Professional Certificate with Excel & R
 
