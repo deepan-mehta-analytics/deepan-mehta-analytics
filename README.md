@@ -128,7 +128,7 @@ I build data-driven solutions covering:
 
 ### From Zero to Agents
 
-<a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592">
+<a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592" target="_blank" rel="noopener noreferrer">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650778"
        width="180"
        alt="Snowflake Northstar - From Zero to Agents">
