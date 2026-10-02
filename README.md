@@ -124,9 +124,11 @@ I build data-driven solutions covering:
 ![Dynamic Tables](https://img.shields.io/badge/-Dynamic%20Tables-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 
 ---
-## ❄️ Snowflake Northstar Badge
+## ❄️ Snowflake Northstar Badge 
+**Issued by Snowflake**
 
 ### From Zero to Agents
+
 
 <a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592" target="_blank" rel="noopener noreferrer">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650778"
@@ -135,6 +137,7 @@ I build data-driven solutions covering:
 </a>
 
 [View verified credential ↗](https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592)
+
 ## 💼 Featured Projects
 
 | Project | Description | Tools |
