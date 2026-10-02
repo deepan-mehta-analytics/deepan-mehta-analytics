@@ -124,7 +124,7 @@ I build data-driven solutions covering:
 ![Dynamic Tables](https://img.shields.io/badge/-Dynamic%20Tables-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 
 ---
-## ❄️ Snowflake Northstar
+## ❄️ Snowflake Northstar Badge
 
 ### From Zero to Agents
 
