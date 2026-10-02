@@ -12,7 +12,7 @@
 > 
 > As a **Forward Deployed Engineer** my role is to provide AI backed solutions to legacy Enterprise Systems across **ANY TECH STACK as needed by clients.**
 >
-> **It could be Google Cloud, Azure, AWS, Agentic solutions and more.**  
+> **It could be Google Cloud, Databricks, AWS, Snowflake, Agentic solutions and more.**  
 >
 > Building end-to-end AI solutions across ETL, analytics, machine learning and AI engineering
 >
