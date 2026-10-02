@@ -127,16 +127,23 @@ I build data-driven solutions covering:
 ## ❄️ Snowflake Northstar Badge 
 **Issued by Snowflake**
 
-### From Zero to Agents
+<p align="left">
 
-
-<a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592" target="_blank" rel="noopener noreferrer">
+<a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650778"
        width="180"
        alt="Snowflake Northstar - From Zero to Agents">
 </a>
 
-[View verified credential ↗](https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592)
+<a href="https://developerbadges.snowflake.com/fa443254-ddb7-4c0c-be05-c8b51643ca2e">
+  <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650110"
+       width="180"
+       alt="Northstar - Data Ingestion, Transformation, and Delivery">
+</a>
+
+</p>
+
+
 
 ## 💼 Featured Projects
 
