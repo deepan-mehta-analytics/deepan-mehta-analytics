@@ -132,6 +132,12 @@ I build data-driven solutions covering:
 **Issued by Snowflake**
 
 <p align="left">
+ 
+<a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592">
+  <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357265"
+       width="180"
+       alt="Snowflake Northstar - Building Intelligent Data Application">
+</a>
 
 <a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650778"
@@ -142,7 +148,7 @@ I build data-driven solutions covering:
 <a href="https://developerbadges.snowflake.com/fa443254-ddb7-4c0c-be05-c8b51643ca2e">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650110"
        width="180"
-       alt="Northstar - Data Ingestion, Transformation, and Delivery">
+       alt="Snowflake Northstar - Data Ingestion, Transformation, and Delivery">
 </a>
 
 </p>
