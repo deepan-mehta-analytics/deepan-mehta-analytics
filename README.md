@@ -36,7 +36,7 @@ I build data-driven solutions covering:
 - Cloud Data Engineering — GCP Cloud Run, Artifact Registry, BigQuery; containerised CI/CD
 - Lakehouse Data Engineering — Databricks Auto Loader, Spark Structured Streaming, Lakeflow Declarative Pipelines, Delta Lake, Databricks SQL, Asset Bundles
 - Lakehouse governance and ML — Unity Catalog grants, row filters, column masks and tag-based (ABAC) policies; MLflow with the Unity Catalog model registry
-- Snowflake Data Cloud — Dynamic Tables, native Semantic Views, and Cortex Agents/Analyst for governed natural-language analytics
+- Snowflake Data Cloud — Snowpipe continuous ingestion, Dynamic Tables and native Semantic Views; Cortex Agents/Analyst for governed natural-language analytics, Cortex Search for RAG, and Cortex Code for AI-assisted pipeline building
 - Observability — structured JSON logging (Cloud Logging), Prometheus metrics endpoints
 - ETL pipelines and data workflows
 - Exploratory data analysis and visualization
