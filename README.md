@@ -128,37 +128,33 @@ I build data-driven solutions covering:
 ![Dynamic Tables](https://img.shields.io/badge/-Dynamic%20Tables-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 
 ---
-## ❄️ Snowflake Northstar Badge 
+## ❄️ Snowflake Northstar Badges
 **Issued by Snowflake**
 
 <p align="left">
- 
 <a href="https://developerbadges.snowflake.com/a2e44f0f-e82b-41be-a48c-ad01ce5fd1ba">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357265"
-       width="160"
+       width="134"
        alt="Snowflake Northstar - Building Intelligent Data Applications">
 </a>
 <a href="https://developerbadges.snowflake.com/8a2d878d-a3ac-434a-bb96-276e7cd8caa6">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357135"
-       width="180"
+       width="146"
        alt="Snowflake Northstar - Building AI Applications with Snowflake Cortex: RAG, Text-to-SQL & CoCo">
 </a>
-
 <a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650778"
-       width="180"
+       width="152"
        alt="Snowflake Northstar - From Zero to Agents">
 </a>
-
 <a href="https://developerbadges.snowflake.com/fa443254-ddb7-4c0c-be05-c8b51643ca2e">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650110"
-       width="180"
+       width="147"
        alt="Snowflake Northstar - Data Ingestion, Transformation, and Delivery">
 </a>
-
 </p>
 
-
+---
 
 ## 💼 Featured Projects
 
