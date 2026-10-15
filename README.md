@@ -124,8 +124,15 @@ I build data-driven solutions covering:
 **Data Warehousing & Cortex AI:**
 
 ![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Cortex AI](https://img.shields.io/badge/-Cortex_AI-6E56CF?style=for-the-badge)
+![Snowpipe](https://img.shields.io/badge/-Snowpipe-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![Dynamic Tables](https://img.shields.io/badge/-Dynamic%20Tables-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Semantic Views](https://img.shields.io/badge/-Semantic%20Views-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Cortex AI](https://img.shields.io/badge/-Cortex%20AI-6E56CF?style=for-the-badge&logo=snowflake&logoColor=white)
+![Cortex Search](https://img.shields.io/badge/-Cortex%20Search-6E56CF?style=for-the-badge&logo=snowflake&logoColor=white)
+![Cortex Analyst](https://img.shields.io/badge/-Cortex%20Analyst-6E56CF?style=for-the-badge&logo=snowflake&logoColor=white)
+![Cortex Agents](https://img.shields.io/badge/-Cortex%20Agents-6E56CF?style=for-the-badge&logo=snowflake&logoColor=white)
+![Cortex Code](https://img.shields.io/badge/-Cortex%20Code-6E56CF?style=for-the-badge&logo=snowflake&logoColor=white)
+![Snowflake CoWork](https://img.shields.io/badge/-Snowflake%20CoWork-6E56CF?style=for-the-badge&logo=snowflake&logoColor=white)
 
 ---
 ## ❄️ Snowflake Northstar Badges
