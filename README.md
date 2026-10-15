@@ -134,27 +134,27 @@ I build data-driven solutions covering:
 <p align="left">
 <a href="https://developerbadges.snowflake.com/a2e44f0f-e82b-41be-a48c-ad01ce5fd1ba">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357265"
-       width="134"
+       width="154"
        alt="Building Intelligent Data Application with Snowflake">
 </a>
 <a href="https://developerbadges.snowflake.com/8a2d878d-a3ac-434a-bb96-276e7cd8caa6">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357135"
-       width="146"
+       width="167"
        alt="Accelerate AI Development: Building AI Applications with Snowflake Cortex: RAG, Text-to-SQL &amp; CoCo">
 </a>
 <a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650778"
-       width="152"
+       width="174"
        alt="From Zero to Agents: Building End-To-End Data Pipelines for an AI Agent">
 </a>
 <a href="https://developerbadges.snowflake.com/fa443254-ddb7-4c0c-be05-c8b51643ca2e">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650110"
-       width="147"
+       width="169"
        alt="Northstar - Data Ingestion, Transformation, and Delivery with Snowflake">
 </a>
 <a href="https://developerbadges.snowflake.com/f5d91b83-916f-4a92-bacb-8193671f49be">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357383"
-       width="136"
+       width="156"
        alt="Northstar - Build an Automated Data Pipeline with Snowpipe">
 </a>
 </p>
