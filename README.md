@@ -135,8 +135,8 @@ I build data-driven solutions covering:
  
 <a href="https://developerbadges.snowflake.com/a2e44f0f-e82b-41be-a48c-ad01ce5fd1ba">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357265"
-       width="180"
-       alt="Snowflake Northstar - Building Intelligent Data Application">
+       width="160"
+       alt="Snowflake Northstar - Building Intelligent Data Applications">
 </a>
 <a href="https://developerbadges.snowflake.com/8a2d878d-a3ac-434a-bb96-276e7cd8caa6">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357135"
