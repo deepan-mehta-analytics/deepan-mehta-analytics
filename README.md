@@ -138,6 +138,11 @@ I build data-driven solutions covering:
        width="180"
        alt="Snowflake Northstar - Building Intelligent Data Application">
 </a>
+<a href="https://developerbadges.snowflake.com/8a2d878d-a3ac-434a-bb96-276e7cd8caa6">
+  <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/197357135"
+       width="180"
+       alt="Snowflake Northstar - Building AI Applications with Snowflake Cortex: RAG, Text-to-SQL & CoCo">
+</a>
 
 <a href="https://developerbadges.snowflake.com/61240fa4-7eb0-4942-a4ca-818d87759592">
   <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/189650778"
