@@ -1,0 +1,4 @@
+# Local-only agent workflow files — never tracked
+/CLAUDE.md
+/workflow_status.md
+/workflow_status_archive*.md
