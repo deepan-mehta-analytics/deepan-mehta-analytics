@@ -50,6 +50,8 @@ I build data-driven solutions covering:
 **Programming & Analysis:**
 
 ![Python](https://img.shields.io/badge/-python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![pandas](https://img.shields.io/badge/-pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -65,6 +67,7 @@ I build data-driven solutions covering:
 ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Ruff](https://img.shields.io/badge/-Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -120,6 +123,7 @@ I build data-driven solutions covering:
 ![Apache Iceberg](https://img.shields.io/badge/-Apache%20Iceberg-4E8EE9?style=for-the-badge&logo=apache&logoColor=white)
 ![AWS SAM](https://img.shields.io/badge/-AWS%20SAM-FF4F8B?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![CloudFormation](https://img.shields.io/badge/-CloudFormation-FF4F8B?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![cfn-lint](https://img.shields.io/badge/-cfn--lint-FF4F8B?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
 
 **Data Warehousing & Cortex AI:**
