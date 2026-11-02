@@ -495,41 +495,41 @@ Compares TF-IDF + classical ML (**94.4% accuracy, 0.93 macro F1** — selected) 
 ```mermaid
 flowchart TD
     subgraph Src["📥 Data Source"]
-        CSV["PaySim mobile-money transactions<br/>6.36M rows · split into 743 hourly files"]
+        CSV["PaySim mobile money<br/>6.36M transactions<br/>743 hourly files"]
     end
 
-    subgraph Ing["🥉 Ingest → Bronze  ✅  Built — Auto Loader · Unity Catalog volumes"]
-        REL["Hourly replay<br/>Duplicate · late · schema-change · malformed scenarios"]
-        BR["bronze_transactions<br/>Append-only Delta table"]
+    subgraph Ing["🥉 Bronze ✅ Auto Loader"]
+        REL["Hourly replay<br/>duplicate · late<br/>schema-change<br/>malformed rows"]
+        BR["bronze_transactions<br/>append-only Delta"]
     end
 
-    subgraph Sil["🥈 Silver  ✅  Built — Lakeflow declarative pipeline"]
-        CHK["Data-quality expectations<br/>Rejected rows kept on a quarantine shelf"]
-        FEAT["Clean, de-duplicated payments<br/>Leak-free point-in-time features"]
+    subgraph Sil["🥈 Silver ✅ Lakeflow"]
+        CHK["Quality expectations<br/>quarantine shelf"]
+        FEAT["Clean, de-duplicated<br/>leak-free features"]
     end
 
-    subgraph ML["🤖 Model  ✅  Built — MLflow · Unity Catalog model registry"]
-        TR["Gradient-boosted fraud model<br/>@champion · @challenger versions"]
-        SC["Batch scoring after every load<br/>405 of 822 frauds at 50 alerts/hour vs 352 for the best rule"]
+    subgraph ML["🤖 Model ✅ MLflow"]
+        TR["Gradient-boosted<br/>UC model registry<br/>@champion"]
+        SC["Scores every load<br/>405 of 822 frauds<br/>at 50 alerts/hour<br/>vs 352 best rule"]
     end
 
-    subgraph Gold["🥇 Gold  ✅  Built — Databricks SQL"]
-        AL["Append-only alert log<br/>Case table · open → closed with a verdict"]
+    subgraph Gold["🥇 Gold ✅ Databricks SQL"]
+        AL["Append-only alerts<br/>case table · verdicts"]
     end
 
-    GOV{{"🔐 Unity Catalog governance<br/>Groups · row filters · column masks · tag-based (ABAC) policy"}}
+    GOV{{"🔐 Unity Catalog<br/>groups · row filters<br/>masks · ABAC"}}
 
-    subgraph Mon["📊 Monitoring & Alerting  ✅  Built — AI/BI dashboards · SQL alerts · system tables"]
-        DASH["2 AI/BI dashboards<br/>Model results · data freshness · job health"]
-        EM["Alerting emails to engineers<br/>Job failures · 2 health checks"]
+    subgraph Mon["📊 Monitoring ✅ Built"]
+        DASH["2 AI/BI dashboards<br/>model · freshness<br/>job health"]
+        EM["Alerting emails<br/>job failures<br/>2 health checks"]
     end
 
-    subgraph Drift["📈 Model Monitoring  🔜  Next — v0.7.0"]
-        DR["Drift detection<br/>Drift-triggered retraining"]
+    subgraph Drift["📈 Model monitoring 🔜"]
+        DR["Drift detection<br/>auto-retraining<br/>next: v0.7.0"]
     end
 
-    subgraph Demo["🚀 Live Demo Window  🔜  Planned — v1.0.0"]
-        LV["Time-boxed live run<br/>Scripted teardown"]
+    subgraph Demo["🚀 Live demo 🔜"]
+        LV["Time-boxed live run<br/>scripted teardown<br/>planned: v1.0.0"]
     end
 
     CSV --> REL
