@@ -110,6 +110,7 @@ I build data-driven solutions covering:
 ![Lakeflow Pipelines](https://img.shields.io/badge/-Lakeflow%20Pipelines-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Databricks SQL](https://img.shields.io/badge/-Databricks%20SQL-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![AI/BI Dashboards](https://img.shields.io/badge/-AI%2FBI%20Dashboards-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![SQL Alerts](https://img.shields.io/badge/-SQL%20Alerts-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 
 **AWS Data Engineering:**
