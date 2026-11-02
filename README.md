@@ -486,68 +486,69 @@ Compares TF-IDF + classical ML (**94.4% accuracy, 0.93 macro F1** — selected) 
 
 ---
 
-## 📊 Architecture: Sales Data Pipeline — Current & Roadmap
+## 📊 Architecture: Databricks Fraud Detection — Current & Roadmap
 
-> The Sales Data Pipeline evolves from a production-grade Medallion ETL into a full customer analytics platform — unifying transactions, segmentation, and retention into a single source of truth.
+<!-- Simplified from the databricks-fraud-detection README (Architecture + Roadmap), synced at v0.6.0. Re-sync on each release. -->
+
+> A streaming fraud pipeline on the Databricks lakehouse: hourly mobile-money payments flow through a Unity Catalog medallion layout, get scored by a registered model, and become reviewable alerts, with monitoring, alerting emails and governance built in.
 
 ```mermaid
 flowchart TD
-    subgraph Sources["📥 Data Sources"]
-        S1["CRM"] & S2["POS / Transactions"] & S3["Web Analytics"]
+    subgraph Src["📥 Data Source"]
+        CSV["PaySim mobile-money transactions<br/>6.36M rows · split into 743 hourly files"]
     end
 
-    subgraph ETL["🏗️ Medallion ETL  ✅  Built — Python · Pandas · Pydantic"]
-        B["🥉 Bronze — Ingest + schema validation"]
-        C["🥈 Silver — Clean · Dedup · Feature engineering"]
-        D["🥇 Gold — Star schema · AOV · CLV pre-aggregated"]
+    subgraph Ing["🥉 Ingest → Bronze  ✅  Built — Auto Loader · Unity Catalog volumes"]
+        REL["Hourly replay<br/>Duplicate · late · schema-change · malformed scenarios"]
+        BR["bronze_transactions<br/>Append-only Delta table"]
     end
 
-    subgraph Infra["⚙️ Data Infrastructure  🔄  In Progress — Airflow ✅ · BigQuery ✅ · Incremental load ✅"]
-        ORC["Apache Airflow ✅<br/>Self-hosted DAG · 9 tasks · Docker Compose"]
-        WH["BigQuery ✅<br/>Partitioned · Clustered · Live-verified"]
+    subgraph Sil["🥈 Silver  ✅  Built — Lakeflow declarative pipeline"]
+        CHK["Data-quality expectations<br/>Rejected rows kept on a quarantine shelf"]
+        FEAT["Clean, de-duplicated payments<br/>Leak-free point-in-time features"]
     end
 
-    subgraph Seg["🧠 Customer Segmentation  🔜  Planned — scikit-learn · Databricks"]
-        E["RFM Analysis<br/>Recency · Frequency · Monetary"]
-        F["Cohort Analysis<br/>Signup cohorts · Engagement lifecycle"]
-        G["K-Means Clustering<br/>Unsupervised persona discovery"]
+    subgraph ML["🤖 Model  ✅  Built — MLflow · Unity Catalog model registry"]
+        TR["Gradient-boosted fraud model<br/>@champion · @challenger versions"]
+        SC["Batch scoring after every load<br/>405 of 822 frauds at 50 alerts/hour vs 352 for the best rule"]
     end
 
-    subgraph Ret["🔁 Retention Analytics  🔜  Planned — scikit-learn · Databricks"]
-        H["Churn Classification<br/>At-risk flagging · Re-engagement triggers"]
-        I["LTV Correlation<br/>High-value segment identification"]
+    subgraph Gold["🥇 Gold  ✅  Built — Databricks SQL"]
+        AL["Append-only alert log<br/>Case table · open → closed with a verdict"]
     end
 
-    subgraph Serving["⚡ Serving Layer  ✅  Built — FastAPI · DuckDB · Docker"]
-        J["🦆 DuckDB — In-process analytics"]
-        K["FastAPI REST API"]
+    GOV{{"🔐 Unity Catalog governance<br/>Groups · row filters · column masks · tag-based (ABAC) policy"}}
+
+    subgraph Mon["📊 Monitoring & Alerting  ✅  Built — AI/BI dashboards · SQL alerts · system tables"]
+        DASH["2 AI/BI dashboards<br/>Model results · data freshness · job health"]
+        EM["Alerting emails to engineers<br/>Job failures · 2 health checks"]
     end
 
-    subgraph Dash["📊 Analytics Dashboard  🔜  Planned — Tableau · Streamlit"]
-        L["KPI tracking · Segment views<br/>Retention curves · LTV by cohort"]
+    subgraph Drift["📈 Model Monitoring  🔜  Next — v0.7.0"]
+        DR["Drift detection<br/>Drift-triggered retraining"]
     end
 
-    subgraph Agent["🤖 Conversational Analytics Agent  🔜  Planned — LangGraph · Claude Sonnet 5"]
-        M["Text-to-SQL Tool-Calling Agent<br/>Natural-language queries over the warehouse"]
+    subgraph Demo["🚀 Live Demo Window  🔜  Planned — v1.0.0"]
+        LV["Time-boxed live run<br/>Scripted teardown"]
     end
 
-    Sources --> B
-    B --> C
-    C --> D
-    D --> ORC
-    ORC --> WH
-    D --> J
-    WH --> E
-    WH --> F
-    E --> G
-    G --> H
-    F --> H
-    H --> I
-    J --> K
-    I --> K
-    K --> L
-    L --> M
+    CSV --> REL
+    REL --> BR
+    BR --> CHK
+    CHK --> FEAT
+    FEAT --> TR
+    FEAT --> SC
+    TR --> SC
+    SC --> AL
+    AL --> DASH
+    AL --> EM
+    GOV -.-> AL
+    GOV -.-> DASH
+    Mon --> Drift
+    Drift --> Demo
 ```
+
+*Deployed as code via Databricks Asset Bundles · verified end to end on Databricks Free Edition (v0.6.0) · 251 tests in CI.*
 
 ---
 
