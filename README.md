@@ -235,7 +235,7 @@ Unity Catalog groups, per-table grants, a row filter and column masks give **man
 </td>
 <td valign="top">
 
-• Python<br>• SQL<br>• **Databricks**<br>• **Auto Loader**<br>• **Lakeflow Declarative Pipelines**<br>• **Spark Structured Streaming**<br>• **Delta Lake**<br>• **Unity Catalog**<br>• **Databricks SQL**<br>• **MLflow**<br>• **AI/BI dashboards**<br>• **SQL alerts**<br>• scikit-learn<br>• Asset Bundles<br>• pytest<br>• GitHub Actions
+• Python<br>• SQL<br>• **Databricks**<br>• **Auto Loader**<br>• **Lakeflow Declarative Pipelines**<br>• **Spark Structured Streaming**<br>• **Delta Lake**<br>• **Unity Catalog**<br>• **Databricks SQL**<br>• **MLflow**<br>• **AI/BI dashboards**<br>• **SQL alerts**<br>• scikit-learn<br>• Asset Bundles<br>• pytest<br>• GitHub Actions<br>• Kafka *(production option)*
 
 </td>
 </tr>
@@ -266,7 +266,7 @@ The entire stack is **infrastructure as code (AWS SAM + CloudFormation)** with *
 </td>
 <td valign="top">
 
-• Python<br>• **PySpark**<br>• **AWS Lambda**<br>• **Amazon S3**<br>• **AWS Glue**<br>• **Glue Data Catalog**<br>• **Amazon Athena**<br>• **Apache Iceberg**<br>• **AWS SAM / CloudFormation**<br>• Parquet<br>• DuckDB<br>• pytest<br>• GitHub Actions
+• Python<br>• **PySpark**<br>• **AWS Lambda**<br>• **Amazon S3**<br>• **AWS Glue**<br>• **Glue Data Catalog**<br>• **Amazon Athena**<br>• **Apache Iceberg**<br>• **AWS SAM / CloudFormation**<br>• Parquet<br>• DuckDB<br>• pytest<br>• GitHub Actions<br>• KMS · AWS Organizations *(production options)*
 
 </td>
 </tr>
@@ -397,7 +397,7 @@ Weekly **Vertex AI** retraining with an **MLflow** registry and a **3% RMSE prom
 </td>
 <td valign="top">
 
-• Python<br>• FastAPI<br>• scikit-learn<br>• Pydantic<br>• Docker<br>• **GCP Cloud Run**<br>• Prometheus<br>• GitHub Actions
+• Python<br>• FastAPI<br>• scikit-learn<br>• Pydantic<br>• Docker<br>• **GCP Cloud Run**<br>• Prometheus<br>• GitHub Actions<br>• API Gateway + Cloud Armor *(production option)*
 
 </td>
 </tr>
@@ -457,7 +457,7 @@ Role-based login with a first-login password change, **access scoping by course 
 </td>
 <td valign="top">
 
-• Java<br>• SQL<br>• **Data Modeling**<br>• **KPI Analytics**<br>• Role-Based Access<br>• **JavaFX 21**<br>• **Maven**<br>• **MySQL**<br>• JasperReports<br>• Docker<br>• JUnit 5
+• Java<br>• SQL<br>• **Data Modeling**<br>• **KPI Analytics**<br>• Role-Based Access<br>• **JavaFX 21**<br>• **Maven**<br>• **MySQL**<br>• JasperReports<br>• Docker<br>• JUnit 5<br>• Apache Superset *(planned)*<br>• Power BI Embedded *(production option)*
 
 </td>
 </tr>
