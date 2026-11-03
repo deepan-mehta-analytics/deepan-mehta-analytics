@@ -343,7 +343,7 @@ The agent was published to **Claude through a Snowflake-managed MCP server** ove
 </td>
 <td valign="top">
 
-• **Snowflake**<br>• SQL<br>• **Dynamic Tables**<br>• **Cortex Analyst**<br>• **Cortex Agents**<br>• **Cortex Search**<br>• **MCP**<br>• GitHub Actions<br>• Python
+• **Snowflake**<br>• SQL<br>• **Dynamic Tables**<br>• **Cortex Analyst**<br>• **Cortex Agents**<br>• **Cortex Search**<br>• **MCP**<br>• GitHub Actions<br>• Python<br>• Openflow *(production option)*<br>• Snowflake Intelligence *(production option)*
 
 </td>
 </tr>
