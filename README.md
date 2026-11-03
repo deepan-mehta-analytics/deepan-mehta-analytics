@@ -336,7 +336,7 @@ A wrong total the v1.0.0 eval caught is now fixed and proven, and **every amount
 
 <details><summary>More</summary>
 
-The agent is published to **Claude through a Snowflake-managed MCP server** over OAuth as a least-privilege user, and a BR-004 data-quality guardrail (Data Metric Function, review queue, email alert) flags invoices over USD 500,000 at the invoice-date FX rate. **Live on Snowflake (v1.1.0).**
+The agent was published to **Claude through a Snowflake-managed MCP server** over OAuth as a least-privilege user (removed 2026-11-03 ahead of the trial end), and a BR-004 data-quality guardrail (Data Metric Function, review queue, email alert) flags invoices over USD 500,000 at the invoice-date FX rate. **Live on Snowflake (v1.1.0) until the trial ends 2026-11-11.**
 
 </details>
 
@@ -438,9 +438,9 @@ Seeded with about **86 bookings across 4 properties**; **27 Vitest tests** run i
 
 Refactor->Re-write -> **full-stack training records and analytics system** to manage multi-course training programmes, featuring a **unified data model**, role-based admin dashboard, KPI tracking, event/result management, and reporting abstraction.
 
-**From a monolith:** the original desktop app was JavaFX 8 on a NetBeans/Ant build: 17 Java classes (about 5,300 lines) with SQL and business logic inside the screen controllers, **hard-coded database credentials**, 58 JAR files copied by hand, and a Windows `.exe` tied to machine-specific Java paths.
+**From a monolith:** the original desktop app was JavaFX 8 on a NetBeans/Ant build: 17 Java classes (about 5,300 lines) with SQL and business logic inside the screen controllers, 58 JAR files copied by hand, and a Windows `.exe` tied to machine-specific Java paths.
 
-**To current tech:** a ground-up rewrite on **Java 21 + JavaFX 21 with Maven**, with configuration moved to environment variables and ignored local files so no credentials ship in source or builds, and the code split into auth, controllers, models, reporting and a 40-class admin module (83 classes, about 13,400 lines).
+**To current tech:** a ground-up rewrite on **Java 21 + JavaFX 21 with Maven**, with configuration moved to environment variables and ignored local files, and the code split into auth, controllers, models, reporting and a 40-class admin module (83 classes, about 13,400 lines).
 
 A redesigned **v2 MySQL schema (21 tables)** built around course families, course types, training events and results, with **a scripted migration from the legacy database** and synthetic demo data (96 people, 30 training events, 181 results) on a local Docker MySQL.
 
