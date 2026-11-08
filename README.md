@@ -164,7 +164,7 @@ I build data-driven solutions covering:
 
 ---
 ## ❄️ Snowflake Northstar Badges
-**Issued by Snowflake**
+**9 verified credentials · Issued by Snowflake**
 
 <p align="left">
 <a href="https://developerbadges.snowflake.com/a2e44f0f-e82b-41be-a48c-ad01ce5fd1ba">
@@ -192,6 +192,10 @@ I build data-driven solutions covering:
        width="156"
        alt="Northstar - Build an Automated Data Pipeline with Snowpipe">
 </a>
+</p>
+
+<p align="left">
+<a href="https://developerbadges.snowflake.com/profile/supernovasurfersolutions/wallet"><img src="https://img.shields.io/badge/All_9_Snowflake_Credentials-View_Wallet-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="All 9 Snowflake credentials: view the credential wallet"></a>
 </p>
 
 ---
