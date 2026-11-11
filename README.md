@@ -325,7 +325,7 @@ Runs entirely on **free-tier services and local emulators** (Pub/Sub, MinIO, Air
 <tr>
 <td valign="top">
 
-🧾 [Snowflake Cortex AI — AP Invoice Intelligence](https://github.com/deepan-mehta-analytics/snowflake-cortex-ai)<br>`v1.1.0`<br>live
+🧾 [Snowflake Cortex AI — AP Invoice Intelligence](https://github.com/deepan-mehta-analytics/snowflake-cortex-ai)<br>`v1.1.0`<br>released
 
 </td>
 <td valign="top">
@@ -340,7 +340,7 @@ A wrong total the v1.0.0 eval caught is now fixed and proven, and **every amount
 
 <details><summary>More</summary>
 
-The agent was published to **Claude through a Snowflake-managed MCP server** over OAuth as a least-privilege user (removed 2026-11-03 ahead of the trial end), and a BR-004 data-quality guardrail (Data Metric Function, review queue, email alert) flags invoices over USD 500,000 at the invoice-date FX rate. **Live on Snowflake (v1.1.0) until the trial ends 2026-11-11.**
+The agent was published to **Claude through a Snowflake-managed MCP server** over OAuth as a least-privilege user (removed 2026-11-03 ahead of the trial end), and a BR-004 data-quality guardrail (Data Metric Function, review queue, email alert) flags invoices over USD 500,000 at the invoice-date FX rate. **Ran live on Snowflake through v1.1.0 until the trial ended on 2026-11-11.**
 
 </details>
 
