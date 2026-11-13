@@ -494,7 +494,7 @@ Compares TF-IDF + classical ML (**94.4% accuracy, 0.93 macro F1** — selected) 
 
 <!-- Simplified from the databricks-fraud-detection README (Architecture + Roadmap), synced at v0.6.0. Re-sync on each release. -->
 
-> A streaming fraud pipeline on the Databricks lakehouse: hourly mobile-money payments flow through a Unity Catalog medallion layout, get scored by a registered model, and become reviewable alerts, with monitoring, alerting emails and governance built in.
+A streaming fraud pipeline on the Databricks lakehouse: hourly mobile-money payments flow through a Unity Catalog medallion layout, get scored by a registered model, and become reviewable alerts, with monitoring, alerting emails and governance built in.
 
 ```mermaid
 flowchart TD
