@@ -10,7 +10,7 @@
 
 **Applied AI Engineer | Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
 
-As a **Forward Deployed Engineer** my role is to provide AI backed solutions to legacy Enterprise Systems across **ANY TECH STACK as needed by clients.**
+As an **AI Forward Deployed Engineer** my role is to provide AI backed Data solutions to legacy Systems across **ANY TECH STACK as needed by clients.**
 
 **It could be Google Cloud, Databricks, AWS, Snowflake, Agentic solutions and more.**  
 
@@ -23,7 +23,7 @@ Building end-to-end AI solutions across ETL, analytics, machine learning and AI 
   - A **Lakeflow declarative pipeline** of materialized views builds Silver with data-quality expectations, a quarantine shelf, duplicate removal and leak-free point-in-time velocity features
   - A gradient-boosted fraud model tracked in **MLflow** and versioned in the **Unity Catalog model registry** scores every new payment after each load, catching 405 of 822 frauds at a 50-alerts-per-hour review budget vs 352 for the best simple rule
   - A **Databricks SQL** task turns scores into an append-only alert log and a case table, governed by **Unity Catalog** groups, row filters, column masks and a tag-based (ABAC) policy, with manager-only access proven on a second real user
-  - Two **AI/BI dashboards** generated from Python monitor the model's live results, data freshness and job health from **system tables**, each viewer's own access rules applied, with one colour theme, sliders, click-to-filter and drill-through
+  - Two [**AI/BI dashboards**](https://github.com/deepan-mehta-analytics/databricks-fraud-detection#-dashboard-demos-animated-and-screenshots) generated from Python monitor the model's live results, data freshness and job health from **system tables**, each viewer's own access rules applied, with one colour theme, sliders, click-to-filter and drill-through
   - **Alerting emails** from job notifications and two SQL-alert health checks run by the job tell engineers when a run fails or data falls behind, worded so nobody mistakes them for fraud news
   - Jobs, pipeline, dashboards and alerts deployed as code via **Databricks Asset Bundles**
   - **Verified end to end on Databricks Free Edition (v0.6.0)**, 251 tests in CI
