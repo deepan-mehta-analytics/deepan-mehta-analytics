@@ -6,41 +6,41 @@
 
 ## 👋 Hi, I'm Deepan Mehta
 
-> *"When learning meets data, growth becomes measurable and inevitable."*
+*"When learning meets data, growth becomes measurable and inevitable."*
 
-> **Applied AI Engineer | Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
-> 
-> As a **Forward Deployed Engineer** my role is to provide AI backed solutions to legacy Enterprise Systems across **ANY TECH STACK as needed by clients.**
->
-> **It could be Google Cloud, Databricks, AWS, Snowflake, Agentic solutions and more.**  
->
-> Building end-to-end AI solutions across ETL, analytics, machine learning and AI engineering
->
-> **Current Projects:**
->
-> - 🛡️ [Databricks Fraud Detection](https://github.com/deepan-mehta-analytics/databricks-fraud-detection) — **streaming fraud pipeline on the Databricks lakehouse**
->   - **Auto Loader** replays 6M PaySim mobile-money transactions into a **Unity Catalog** medallion layout, with duplicate, late, schema-change and malformed-data scenarios each proven by SQL checks
->   - A **Lakeflow declarative pipeline** of materialized views builds Silver with data-quality expectations, a quarantine shelf, duplicate removal and leak-free point-in-time velocity features
->   - A gradient-boosted fraud model tracked in **MLflow** and versioned in the **Unity Catalog model registry** scores every new payment after each load, catching 405 of 822 frauds at a 50-alerts-per-hour review budget vs 352 for the best simple rule
->   - A **Databricks SQL** task turns scores into an append-only alert log and a case table, governed by **Unity Catalog** groups, row filters, column masks and a tag-based (ABAC) policy, with manager-only access proven on a second real user
->   - Two **AI/BI dashboards** generated from Python monitor the model's live results, data freshness and job health from **system tables**, each viewer's own access rules applied, with one colour theme, sliders, click-to-filter and drill-through
->   - **Alerting emails** from job notifications and two SQL-alert health checks run by the job tell engineers when a run fails or data falls behind, worded so nobody mistakes them for fraud news
->   - Jobs, pipeline, dashboards and alerts deployed as code via **Databricks Asset Bundles**
->   - **Verified end to end on Databricks Free Edition (v0.6.0)**, 251 tests in CI
->   - **Next:** **model monitoring** with drift-triggered retraining (v0.7.0)
->
-> - 🖱️ [AWS Clickstream Analytics](https://github.com/deepan-mehta-analytics/aws-clickstream-analytics) — **serverless clickstream analytics lake on AWS** turning **165,474 real web clicks** into product and funnel insight
->   - **Lambda ingest → S3 Bronze/Silver/Gold → AWS Glue (PySpark) → Glue Data Catalog → Athena**, with **quality gates that quarantine bad rows instead of dropping them** and a **Gold star schema** for BI
->   - The whole stack is **infrastructure as code (AWS SAM)** with **encryption, concurrency, timeout and query-scan cost guardrails enforced by tests**
->   - **Deployed and verified on AWS (Mumbai, v0.1.0)**: Athena's counts **matched the source on every check**, **job bookmarks** processed only new data, and the stack was **torn down the same day** at a **measured cost of about ₹3.33**
->   - 221 tests in CI
->   - **Next:** **Apache Iceberg Silver tables** with schema evolution and a **verified data erasure across every layer** (built and tested, AWS run in progress), then streaming and Redshift
->
-> - 🏗️ [Sales Data Pipeline](https://github.com/deepan-mehta-analytics/sales-data-pipeline) — **production-grade Medallion (Bronze → Silver → Gold) ETL pipeline** with automated data quality gates, feature engineering, and an embedded **DuckDB** analytical store
->   - Orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) syncing into a partitioned/clustered **BigQuery** cloud warehouse, live-verified end-to-end against real GCP infrastructure
->   - **FastAPI** query layer published to **GHCR**
->   - Watermark-based **incremental load** (insert-only CDC) now live, 160 tests enforced in CI
->   - **Next:** MLflow/W&B run tracking (v2.0)
+**Applied AI Engineer | Forward Deployed Engineer | Data Analytics | Data Engineering | AI Systems**
+
+As a **Forward Deployed Engineer** my role is to provide AI backed solutions to legacy Enterprise Systems across **ANY TECH STACK as needed by clients.**
+
+**It could be Google Cloud, Databricks, AWS, Snowflake, Agentic solutions and more.**  
+
+Building end-to-end AI solutions across ETL, analytics, machine learning and AI engineering
+
+**Current Projects:**
+
+- 🛡️ [Databricks Fraud Detection](https://github.com/deepan-mehta-analytics/databricks-fraud-detection) — **streaming fraud pipeline on the Databricks lakehouse**
+  - **Auto Loader** replays 6M PaySim mobile-money transactions into a **Unity Catalog** medallion layout, with duplicate, late, schema-change and malformed-data scenarios each proven by SQL checks
+  - A **Lakeflow declarative pipeline** of materialized views builds Silver with data-quality expectations, a quarantine shelf, duplicate removal and leak-free point-in-time velocity features
+  - A gradient-boosted fraud model tracked in **MLflow** and versioned in the **Unity Catalog model registry** scores every new payment after each load, catching 405 of 822 frauds at a 50-alerts-per-hour review budget vs 352 for the best simple rule
+  - A **Databricks SQL** task turns scores into an append-only alert log and a case table, governed by **Unity Catalog** groups, row filters, column masks and a tag-based (ABAC) policy, with manager-only access proven on a second real user
+  - Two **AI/BI dashboards** generated from Python monitor the model's live results, data freshness and job health from **system tables**, each viewer's own access rules applied, with one colour theme, sliders, click-to-filter and drill-through
+  - **Alerting emails** from job notifications and two SQL-alert health checks run by the job tell engineers when a run fails or data falls behind, worded so nobody mistakes them for fraud news
+  - Jobs, pipeline, dashboards and alerts deployed as code via **Databricks Asset Bundles**
+  - **Verified end to end on Databricks Free Edition (v0.6.0)**, 251 tests in CI
+  - **Next:** **model monitoring** with drift-triggered retraining (v0.7.0)
+
+- 🖱️ [AWS Clickstream Analytics](https://github.com/deepan-mehta-analytics/aws-clickstream-analytics) — **serverless clickstream analytics lake on AWS** turning **165,474 real web clicks** into product and funnel insight
+  - **Lambda ingest → S3 Bronze/Silver/Gold → AWS Glue (PySpark) → Glue Data Catalog → Athena**, with **quality gates that quarantine bad rows instead of dropping them** and a **Gold star schema** for BI
+  - The whole stack is **infrastructure as code (AWS SAM)** with **encryption, concurrency, timeout and query-scan cost guardrails enforced by tests**
+  - **Deployed and verified on AWS (Mumbai, v0.1.0)**: Athena's counts **matched the source on every check**, **job bookmarks** processed only new data, and the stack was **torn down the same day** at a **measured cost of about ₹3.33**
+  - 221 tests in CI
+  - **Next:** **Apache Iceberg Silver tables** with schema evolution and a **verified data erasure across every layer** (built and tested, AWS run in progress), then streaming and Redshift
+
+- 🏗️ [Sales Data Pipeline](https://github.com/deepan-mehta-analytics/sales-data-pipeline) — **production-grade Medallion (Bronze → Silver → Gold) ETL pipeline** with automated data quality gates, feature engineering, and an embedded **DuckDB** analytical store
+  - Orchestrated via a self-hosted **Apache Airflow** DAG (9 independently retryable tasks) syncing into a partitioned/clustered **BigQuery** cloud warehouse, live-verified end-to-end against real GCP infrastructure
+  - **FastAPI** query layer published to **GHCR**
+  - Watermark-based **incremental load** (insert-only CDC) now live, 160 tests enforced in CI
+  - **Next:** MLflow/W&B run tracking (v2.0)
 
 ---
 
