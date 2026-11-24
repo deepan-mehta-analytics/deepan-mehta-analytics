@@ -199,6 +199,32 @@ I build data-driven solutions covering:
 </p>
 
 ---
+## 💾🧱 Databricks Academy Badges
+**4 verified credentials · Issued by Databricks Academy**
+
+<p align="left">
+<a href="https://www.credential.net/5beb1d94-e745-4284-975b-0483defa4559">
+  <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/200174358"
+       width="160"
+       alt="Knowledge Badge - Data Ingestion with Lakeflow Connect">
+</a>
+<a href="https://www.credential.net/e2b64afd-55d2-4cb0-9314-e31f2d1e170b">
+  <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/200690887"
+       width="160"
+       alt="Knowledge Badge - Deploy Workloads with Lakeflow Jobs">
+</a>
+<a href="https://www.credential.net/9791e686-1c06-42b0-87e2-961148b16cab">
+  <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/201378428"
+       width="160"
+       alt="Knowledge Badge - Build Data Pipelines with Lakeflow Spark Declarative Pipelines">
+</a>
+</p>
+
+<p align="left">
+<a href="https://www.credential.net/profile/supernovasurfersolutions/wallet"><img src="https://img.shields.io/badge/All_4_Databricks_Credentials-View_Wallet-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="All 4 Databricks credentials: view the credential wallet"></a>
+</p>
+
+---
 
 ## 💼 Featured Projects
 
